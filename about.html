@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <!-- SEO & Metadata -->
+    <title>가산 프로그램 개발 추천 TOP 3 | 회사원 생존기</title>
+    <meta name="description" content="가산 프로그램 개발 외주 맡길 때 고민 많죠? 회사 다니면서 겪은 찐 썰과 가산 프로그램 개발 추천 업체 분석. 가산디지털단지 근처 믿을만한 개발 파트너를 찾는다면 클릭하세요.">
+    <meta name="keywords" content="가산 프로그램 개발 추천, 가산 웹개발, IT 아웃소싱, 가산동 개발사, 프로그램 견적, 웹 개발 후기">
+    <link rel="canonical" href="https://kr-pbn-bp-028.pages.dev">
+    
+    <!-- Open Graph / Twitter Card -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="가산 프로그램 개발 추천: 가산단지의 숨은 고수들">
+    <meta property="og:description" content="대기업 수요처 사이에서 살아남은 가산동 개발 업체 분석. 가산 프로그램 개발 추천 가이드.">
+    <meta property="og:url" content="https://kr-pbn-bp-028.pages.dev">
+    <meta property="og:image" content="https://kr-pbn-bp-028.pages.dev/assets/og-gasan.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <style>
+        /* * DESIGN SYSTEM: STREET BRUTALIST - NEON VOID * */
+        /* DNA: Raw, High Contrast, Oversized, Asymmetric */
+        :root {
+            --bg-color: #0a0a0a;
+            --text-color: #e0e0e0;
+            --accent-primary: #ccff00; /* Neon Lime */
+            --accent-secondary: #ff00ff; /* Neon Magenta */
+            --border-color: #333333;
+            --card-bg: #111111;
+            --font-main: 'Courier New', Courier, monospace; /* Brutalist Monospace */
+            --font-display: 'Impact', 'Arial Black', sans-serif;
+            --spacing-unit: 1rem;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html { font-size: 16px; scroll-behavior: smooth; }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+            border-top: 5px solid var(--accent-primary);
+        }
+
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4 {
+            font-family: var(--font-display);
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            line-height: 1.1;
+            margin-bottom: var(--spacing-unit);
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 8vw, 5rem);
+            color: var(--accent-primary);
+            text-shadow: 4px 4px 0px var(--accent-secondary);
+        }
+
+        h2 {
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            border-bottom: 2px solid var(--accent-secondary);
+            display: inline-block;
+            padding-right: 20px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: var(--text-color);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            max-width: 70ch;
+        }
+
+        a {
+            color: var(--accent-primary);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: all 0.2s;
+        }
+
+        a:hover {
+            background-color: var(--accent-primary);
+            color: var(--bg-color);
+            box-shadow: 4px 4px 0px var(--text-color);
+        }
+
+        /* LAYOUT UTILS */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-unit);
+        }
+
+        .section {
+            padding: 4rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        /* COMPONENTS */
+        /* Navigation */
+        nav {
+            padding: 1rem 0;
+            border-bottom: 2px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(5px);
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            overflow-x: auto;
+        }
+
+        nav li a {
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 5rem 0;
+            text-align: left;
+        }
+
+        .tag {
+            display: inline-block;
+            background: var(--accent-secondary);
+            color: #fff;
+            padding: 0.2rem 0.5rem;
+            font-weight: bold;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            transform: rotate(-2deg);
+        }
+
+        /* Grid System */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            padding: 2rem;
+            position: relative;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translate(-5px, -5px);
+            border-color: var(--accent-primary);
+            box-shadow: 5px 5px 0px var(--accent-primary);
+        }
+
+        .card-title {
+            font-size: 1.8rem;
+            color: var(--accent-primary);
+            margin-bottom: 1rem;
+            font-family: var(--font-display);
+        }
+
+        .card-meta {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 1rem;
+            border-bottom: 1px dashed var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        /* FAQ Section */
+        .faq-item {
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--accent-secondary);
+            padding-left: 1.5rem;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            padding: 2rem 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+            border-top: 2px solid var(--border-color);
+            margin-top: 4rem;
+        }
+
+        /* Responsive */
+        @media (min-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr 1fr;
+            }
+            nav ul {
+                justify-content: flex-start;
+            }
+        }
+
+        /* Utility: Button */
+        .btn-brutal {
+            display: inline-block;
+            background: var(--text-color);
+            color: var(--bg-color);
+            padding: 1rem 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+        .btn-brutal:hover {
+            background: var(--accent-primary);
+            color: var(--bg-color);
+            box-shadow: 4px 4px 0px var(--accent-secondary);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="tel:010-1234-5678">010-1234-5678</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section">
+            <div class="container">
+                <span class="tag">REAL TALK FROM INSIDE</span>
+                <h1>가산 프로그램 개발<br>추천 업체가 다 거기서 거기?<br>아니야, 다르다고.</h1>
+                <p style="margin-top: 1.5rem; font-size: 1.2rem;">
+                    안녕하세요. 가산동에서 5 년 차 개발자이자, 옆에서 수많은 외주 망하는 꼴을 본 현직자입니다.<br>
+                    오늘 말씀드릴 <strong>가산 프로그램 개발 추천</strong> 리스트는 그냥 모아서 나열한 게 아닙니다. 
+                    실제로 우리 회사 PM 들이 "여긴 좀 해볼 만하네"라고 엄지척 했던 곳들 위주로 추렸습니다.
+                </p>
+                <a href="#review" class="btn-brutal">찐 후기 바로 보기 ↓</a>
+            </div>
+        </section>
+
+        <!-- Content Section: The Reality -->
+        <section class="section">
+            <div class="container">
+                <h2>가산동 IT 현실 썰</h2>
+                <p>
+                    가산디지털단지는 말 그대로 '개발자의 성지' 같은 곳이지만, 동시에 '호구 잡기 좋은 곳'이기도 합니다. 
+                    특이한 점은 인근에 대기업 R&D 센터가 많다 보니, 요구 사항이 매우 까다롭다는 거죠. 
+                    단순히 "홈페이지 하나 만들어주세요" 수준이 아니라, 시스템 연동이나 복잡한 로직이 들어가는 경우가 태반입니다.
+                </p>
+                <p>
+                    그래서 가산 프로그램 개발 외주를 맡길 때는 가격만 보고 덤비면 안 됩니다. 
+                    "가산 웹개발"로 검색하면 나오는 하청의 하청 업체들은 대부분 3 개월 뒤에 연락 두절됩니다. 
+                    오늘 소개하는 업체들은 적어도 "답장은 해주는" 곳들입니다.
+                </p>
+            </div>
+        </section>
+
+        <!-- Review Section: Recommended Vendors -->
+        <section class="section" id="review">
+            <div class="container">
+                <h2>가산 프로그램 개발 추천 TOP 3</h2>
+                <p>순위 매긴 건 아니지만, 제 경험상 '가성비'와 '기술력' 밸런스가 잘 잡힌 곳들입니다.</p>
+                
+                <div class="grid-2" style="margin-top: 3rem;">
+                    <!-- Card 1 -->
+                    <article class="card">
+                        <div class="card-meta">위치: 가산동 168-1 | 분야: 웹/앱 통합</div>
+                        <h3 class="card-title">01. 데브하우스 가산</h3>
+                        <p>
+                            여기는 진짜 "직장인 친화형"입니다. 야근 문화가 심한 가산동 특성상, 
+                            퇴근 후에도 미팅이 가능한 걸 선호하신다면 추천합니다. 
+                            기술 스택이 좀 구식일 수 있다는 평도 있지만, 레거시 시스템 유지보수나 
+                            단순 웹 개발 쪽에서는 가격 경쟁력이 압도적입니다.
+                        </p>
+                        <p><strong>한줄평:</strong> "말 잘 통하는 동네 형 같은 개발사"</p>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="card">
+                        <div class="card-meta">위치: 가산동 122-3 | 분야: ERP/시스템 구축</div>
+                        <h3 class="card-title">02. 테크노솔루션</h3>
+                        <p>
+                            조금 더 전문적인 게 필요할 때 찾는 곳입니다. 가산 프로그램 개발 추천 목록에 
+                            항상 오르는 이유가 있습니다. 바로 ' dokumentation(문서화)'를 잘 해줘서입니다. 
+                            나중에 유지보수接手 받을 때 이거 하나だけでも 천만 원 아낍니다. 
+                            단, 견적이 좀 쎈 편입니다.
+                        </p>
+                        <p><strong>한줄평:</strong> "문서화 끝판왕, 하지만 비쌈"</p>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="card">
+                        <div class="card-meta">위치: 금천구 시흥동 | 분야: 스타트업 MVP</div>
+                        <h3 class="card-title">03. 스타트업 랩 (가산 지사)</h3>
+                        <p>
+                            본사는 시흥동이지만 가산 단지와 붙어있어서 접근성이 좋습니다. 
+                            아이디어만 있고 뭐부터 해야 할지 모르는 대표님들께 추천합니다. 
+                            개발보다는 '기획' 단계에서 도움을 많이 주려고 노력하는 팀입니다. 
+                            가산동에서 드물게 '소통'을 최우선으로 두는 곳 같아요.
+                        </p>
+                        <p><strong>한줄평:</strong> "기획부터 같이 고민해줌"</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section">
+            <div class="container">
+                <h2>자주 묻는 질문 (FAQ)</h2>
+                
+                <div class="faq-item">
+                    <span class="faq-question">Q. 가산동 개발업체 견적相場이 어떻게 되나요?</span>
+                    <p>
+                        A. 천차만별입니다. 하지만 가산 프로그램 개발 기준으로 단순 소개팅 사이트 수준이면 300~500 만 원 선, 
+                        기업용 웹사이트는 800 만 원 이상 보는 게 일반적입니다. 너무 싼 곳 (100 만 원 이하) 은 피하세요. 
+                        그건 코딩 배우는 학생한테 맡기는 겁니다.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <span class="faq-question">Q. 유지보수는 어떻게 하나요?</span>
+                    <p>
+                        A. 보통 1 년是无償 A/S 를 해줍니다. 하지만 그 이후부터는 월 유지보수 비용이 발생합니다. 
+                        계약서에 "유지보수 범위"를 명확히 적어두지 않으면, 사소한 수정에도 돈 달라고 하는 경우가 많으니 주의하세요.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <span class="faq-question">Q. 직접 만나서 미팅할 수 있나요?</span>
+                    <p>
+                        A. 네, 위의 추천 업체들은 모두 가산디지털단지 인근에 오피스가 있습니다. 
+                        줌 (Zoom) 미팅도 좋지만, 개발자 얼굴 보고 얘기하는 게 신뢰도 쌓는 데 훨씬 빠릅니다. 
+                        가산역 근처 카페에서 미팅 잡으시는 거 추천드립니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section" style="text-align: center; border-bottom: none;">
+            <div class="container">
+                <h2 style="border: none; font-size: 2.5rem;">아직도 고민 중이신가요?</h2>
+                <p>
+                    개발은 타이밍입니다. 좋은 업체는 일정Already 꽉 차있습니다.<br>
+                    지금 바로 문의해서 견적이라도 받아보세요. 손해 볼 거 없습니다.
+                </p>
+                <a href="tel:010-1234-5678" class="btn-brutal" style="font-size: 1.5rem;">무료 견적 문의하기</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 가산 프로그램 개발 추천 가이드. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; color: #444;">본 페이지는 정보 제공을 목적으로 하며, 특정 업체의 영리를 돕지 않습니다.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

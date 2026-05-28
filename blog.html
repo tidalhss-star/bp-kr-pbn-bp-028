@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <title>가산 프로그램 개발 추천 | 솔직한 개발자 일기</title>
+    <meta name="description" content="가산동에서 프로그램을 개발해야 하는데 누구한테 맡겨야 할지 고민되시나요? 화려한 마케팅 없이 오직 코딩 실력과 납기 준수, 개발자 특유의 정직함만 남았습니다.">
+    <meta name="keywords" content="가산 프로그램 개발 추천, 가산동 웹개발, 가산 시스템 구축, 앱 개발 외주, 개발자 포트폴리오, 솔직한 후기">
+    <link rel="canonical" href="https://kr-pbn-bp-028.pages.dev/">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kr-pbn-bp-028.pages.dev/">
+    <meta property="og:title" content="가산 프로그램 개발 추천 | 솔직한 개발자 일기">
+    <meta property="og:description" content="마케팅 없는 개발자의 현실적인 조언. 가산동 프로그램 개발, 이젠 똑똑하게 하세요.">
+    <meta property="og:image" content="https://kr-pbn-bp-028.pages.dev/assets/og-image.jpg">
+    
+    <style>
+        :root {
+            --bg-color: #0a0a0a;
+            --text-color: #e0e0e0;
+            --accent-color: #00ff9d; /* Neon Green */
+            --secondary-accent: #7000ff; /* Electric Purple */
+            --border-color: #333;
+            --card-bg: #111;
+            --font-main: 'Courier New', Courier, monospace;
+            --font-heading: 'Impact', sans-serif;
+            --spacing-sm: 1rem;
+            --spacing-md: 2rem;
+            --spacing-lg: 4rem;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* --- TYPOGRAPHY --- */
+        h1, h2, h3, h4 {
+            font-family: var(--font-heading);
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            color: var(--text-color);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        h1 { font-size: 3.5rem; line-height: 1.1; }
+        h2 { font-size: 2.5rem; border-left: 5px solid var(--accent-color); padding-left: 1rem; }
+        h3 { font-size: 1.8rem; color: var(--accent-color); }
+        
+        p, li, a, span {
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--secondary-accent);
+            text-decoration: underline;
+        }
+
+        /* --- LAYOUT UTILS --- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-sm);
+        }
+
+        .section-spacer {
+            padding: var(--spacing-lg) 0;
+        }
+
+        /* --- HEADER --- */
+        .header-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(10, 10, 10, 0.95);
+            border-bottom: 2px solid var(--border-color);
+            z-index: 1000;
+            padding: 1rem 0;
+            backdrop-filter: blur(5px);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            border: 2px solid var(--accent-color);
+            padding: 0.2rem 0.5rem;
+        }
+
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-color);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            padding-top: 150px;
+            padding-bottom: var(--spacing-lg);
+            border-bottom: 1px dashed var(--border-color);
+        }
+
+        .hero-tag {
+            display: inline-block;
+            background: var(--secondary-accent);
+            color: #fff;
+            padding: 0.2rem 0.5rem;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        /* --- CONTENT GRID --- */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-md);
+        }
+
+        .main-article {
+            background: var(--card-bg);
+            padding: var(--spacing-md);
+            border: 1px solid var(--border-color);
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-md);
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: var(--spacing-sm);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            border-color: var(--accent-color);
+            transform: translateY(-5px);
+        }
+
+        /* --- FAQ --- */
+        .faq-item {
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 0;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            color: var(--accent-color);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .faq-answer {
+            margin-top: 0.5rem;
+            font-size: 0.95rem;
+            display: none; /* JS toggles this usually, but keeping simple for static */
+            display: block;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            border-top: 2px solid var(--border-color);
+            padding: var(--spacing-md) 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .nav-links {
+                display: none; /* Simplified for this snippet */
+            }
+            .nav-toggle { display: block; }
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero { padding-top: 100px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header-wrapper">
+        <div class="container header-content">
+            <a href="/" class="logo">DEV_LOG_028</a>
+            <button class="nav-toggle">MENU</button>
+            <nav class="nav-links">
+                <a href="#about">소개</a>
+                <a href="#services">서비스</a>
+                <a href="#blog">블로그</a>
+                <a href="tel:010-0000-0000" class="tel-link">010-0000-0000</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        
+        <!-- Hero Section -->
+        <section class="hero">
+            <span class="hero-tag">NO MARKETING, JUST CODE</span>
+            <h1>가산 프로그램 개발 추천,<br>솔직하게 정리해 드립니다.</h1>
+            <p style="margin-top: 1rem; max-width: 600px;">
+                "가산동 근처에 개발 업체 좀 추천해 주세요."<br>
+                매일 듣는 질문입니다. 하지만 저는 특정 업체 이름을 알려드리기보다, 
+                <strong>어떻게 골라야 사기당하지 않는지</strong> 알려드리려고 합니다.
+            </p>
+        </section>
+
+        <!-- Content Area -->
+        <div class="content-grid">
+            
+            <!-- Blog Post -->
+            <article class="main-article">
+                <h2>왜 가산동에서 프로그램 개발을 하려나요?</h2>
+                <p style="margin-bottom: 1.5rem;">
+                    가산디지털단지는 말 그대로 '디지털'의 중심지입니다. 하지만 정작 여기서 일하는 스타트업 대표님들, 
+                    중소기업 팀장님들이 가장 힘들어하는 게 바로 <strong>'믿을 만한 개발자 찾기'</strong>입니다.
+                </p>
+
+                <h3>1. "저희는 풀스택입니다"라는 말 믿지 마세요</h3>
+                <p>
+                    예전엔 풀스택이 대세였습니다. 하지만 이제 전문성이 중요하죠. 
+                    가산 프로그램 개발 추천 리스트를 만들 때 가장 먼저 보는 게 포트폴리오의 <strong>깊이</strong>입니다.
+                    단순히 홈페이지를 만든 게 아니라, 내부 업무 프로세스를 얼마나 이해하고 시스템으로 풀어냈는지를 봐야 합니다.
+                </p>
+                <br>
+                <p>
+                    저는 10 년 차 백엔드 개발자입니다. 프론트엔드도 할 줄 알지만, 
+                    제 진짜 무기는 <strong>데이터 설계와 서버 최적화</strong>입니다. 
+                    화려한 UI 보다 중요한 건, 수천 명이 동시에 접속해도 서버가 뻗지 않는 튼튼한 백본입니다.
+                </p>
+
+                <h3>2. 견적서에는 없는 '유지보수'의 함정</h3>
+                <p>
+                    많은 업체들이 개발 완료 후 사라집니다. 버그가 생기면 연락이 두절되죠.
+                    가산동에서 프로그램 개발을 의뢰하실 땐, <strong>AS 기간과 유지보수 비용</strong>을 계약서에 명확히 적으세요.
+                    저는 개발이 끝난 게 시작이라고 생각합니다. 시스템이 안정화될 때까지 책임지는 게 개발자의 도리니까요.
+                </p>
+
+                <div style="background: #222; padding: 1.5rem; margin: 2rem 0; border-left: 4px solid var(--secondary-accent);">
+                    <h4 style="color: #fff; margin-bottom: 0.5rem;">💡 개발자로서의 조언</h4>
+                    <p>
+                        "가싼 게 좋은 거 아닙니다. 제대로 된 걸 만드려면 그만큼의 비용과 시간이 듭니다. 
+                        하지만 그 비용이 아깝지 않은 결과를 드리겠습니다."
+                    </p>
+                </div>
+
+                <h3>3. 제가 추천하는 개발 프로세스</h3>
+                <ul style="list-style: none; margin-left: 0;">
+                    <li style="margin-bottom: 1rem;">✅ <strong>요구사항 정의서 작성:</strong> 말로만 하지 말고 문서로 남깁니다.</li>
+                    <li style="margin-bottom: 1rem;">✅ <strong>주간 단위 보고:</strong> 진척도를 투명하게 공유합니다.</li>
+                    <li style="margin-bottom: 1rem;">✅ <strong>테스트 기간 확보:</strong> 오픈 전 버그잡는 시간을 충분히 가집니다.</li>
+                </ul>
+            </article>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="card">
+                    <h3>关于我 (About Me)</h3>
+                    <p>
+                        가산동 근처에서 10 년째 코드를 짭니다.<br>
+                        술자리보다는 GitHub 에서 야근하는 걸 좋아합니다.<br>
+                        의뢰인분의 비즈니스 로직을 코드로 구현하는 게 제 낙입니다.
+                    </p>
+                    <a href="#contact" style="display: block; margin-top: 1rem; text-align: center; border: 1px solid var(--accent-color); padding: 0.5rem;">상담 문의하기</a>
+                </div>
+
+                <div class="card">
+                    <h3>관련 키워드</h3>
+                    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                        <span style="font-size: 0.8rem; background: #333; padding: 0.2rem 0.5rem;">#가산프로그램개발</span>
+                        <span style="font-size: 0.8rem; background: #333; padding: 0.2rem 0.5rem;">#웹개발외주</span>
+                        <span style="font-size: 0.8rem; background: #333; padding: 0.2rem 0.5rem;">#시스템구축</span>
+                        <span style="font-size: 0.8rem; background: #333; padding: 0.2rem 0.5rem;">#앱개발</span>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- FAQ Section -->
+        <section class="section-spacer" id="faq">
+            <h2>자주 묻는 질문 (FAQ)</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q. 소규모 프로젝트도 가능한가요? <span>+</span></div>
+                <div class="faq-answer">
+                    <p>네, 가능합니다. 규모와 상관없이 비즈니스 로직이 명확하다면 언제든지 환영합니다. 다만, 예산에 맞는 현실적인 기술을 제안해 드립니다.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q. 개발 기간은 얼마나 걸리나요? <span>+</span></div>
+                <div class="faq-answer">
+                    <p>단순 홍보용 사이트는 2 주, 기능 중심의 웹 서비스는 1~2 달 정도 소요됩니다. 요구사항의 복잡도에 따라 달라지니 구체적인 미팅이 필요합니다.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q. 가산동으로 직접 방문 가능한가요? <span>+</span></div>
+                <div class="faq-answer">
+                    <p>네, 가산디지털단지 내 또는 근처 카페에서 미팅 가능합니다. 얼굴 보고 대화하는 게 오해를 줄이는 가장 빠른 길입니다.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Solo Developer Portfolio. All rights reserved.</p>
+            <p>가산동에서 씁니다. Contact: dev@example.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
