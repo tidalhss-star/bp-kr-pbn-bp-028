@@ -1,356 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://gasan-dev-trend.node-link.shop/about.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gasan-dev-trend.node-link.shop/</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://gasan-dev-trend.node-link.shop/about.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/blog.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/checklist-001-kwu6u4.html</loc>
-    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/checklist-005-1ohfb0z.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/checklist-005-trkkhi.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/compare-004-1h8twvc.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/compare-004-1hiqh0n.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/field_note-001-1e4jihi.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/field_note-001-6oy3e5.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/field_note-002-13s3wo6.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/field_note-002-1gm30cu.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/field_note-002-1meca19.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/guide-002-1h4832z.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/guide-002-blx6eq.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/guide-003-1jxu53c.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/interview-001-1q9podr.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/interview-001-rzcb5d.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/interview-002-12fv2i1.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/myth-001-12fv2i1.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/myth-002-kwu6u4.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/qa-003-14y7pvs.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/qa-003-7e7uah.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/qa-004-7uwkt.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/review-001-8rbxqr.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/review-001-aeh6bm.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/review-001-me0ulo.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/review-002-17zw42m.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/review-002-1f6h8x0.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/t3link-001-1dl8g57.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/t3link-001-1n70qeq.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/t3link-002-c84ri4.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/t3link-002-jkhkm8.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260704-103.html</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260705-310.html</loc>
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260705-1144.html</loc>
-    <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0331.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0332.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0333.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0334.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0335.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0336.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0337.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0338.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0339.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0340.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0341.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0342.html</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260705-310.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0155.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0156.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0157.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0158.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0159.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0160.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0161.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0162.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0163.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0164.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0165.html</loc>
-    <lastmod>2026-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0331.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0332.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0333.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0334.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0335.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0336.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0337.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0338.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0339.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0340.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0341.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/gemini-coverage-20260721-0342.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/guide-002-1h4832z.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/guide-002-blx6eq.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/guide-003-1jxu53c.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/interview-001-1q9podr.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/interview-001-rzcb5d.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/interview-002-12fv2i1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/myth-001-12fv2i1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/myth-002-kwu6u4.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/qa-003-14y7pvs.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/qa-003-7e7uah.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/qa-004-7uwkt.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/review-001-8rbxqr.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/review-001-aeh6bm.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/review-001-me0ulo.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/review-002-17zw42m.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/review-002-1f6h8x0.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/t3link-001-1dl8g57.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/t3link-001-1n70qeq.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/t3link-002-c84ri4.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/t3link-002-jkhkm8.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
