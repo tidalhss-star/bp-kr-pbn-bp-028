@@ -7,8 +7,6 @@
 <meta name="description" content="가산동 지역의 IT 인력 수요와 개발자 파이를 고려한 현실적인 프로그램 개발 선택 가이드입니다. 복잡한 변수 없이 핵심 데이터에 기반한 '가산 프로그램 개발 추천' 정보를 확인하세요.">
 <meta name="keywords" content="가산 프로그램 개발, 가산동 개발자 채용, 지역별 IT 시장 분석, 효율적 프로젝트 관리">
 <link rel="canonical" href="https://gasan-dev-trend.node-link.shop/">
-<meta name="bpaas-design-system" content="brutalist-avantgarde">
-<meta name="bpaas-design-theme" content="kr-night-signal">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -19,21 +17,21 @@
 <!-- JSON-LD Schema -->
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "가산 프로그램 개발 추천 분석",
-  "provider": {
-    "@type": "LocalBusiness",
-    "telephone": "010-6279-0862"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "가산동, 서울"
-  },
-  "offers": {
-    "@type": "Offer",
-    "category": "Program Development Consultation"
-  }
+ "@context": "https://schema.org",
+ "@type": "Service",
+ "name": "가산 프로그램 개발 추천 분석",
+ "provider": {
+ "@type": "LocalBusiness",
+ "telephone": "010-6279-0862"
+ },
+ "areaServed": {
+ "@type": "Place",
+ "name": "가산동, 서울"
+ },
+ "offers": {
+ "@type": "Offer",
+ "category": "Program Development Consultation"
+ }
 }
 </script>
 
@@ -41,40 +39,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;900&family=Noto+Sans+KR:wght@300;400;500&display=swap');
 
 :root {
-    --bg-primary: #08080f;
-    --bg-secondary: #12121a;
-    --text-main: #f0f0f5;
-    --text-muted: #8892b0;
-    --accent: #ff5c1a; /* Signal Orange */
-    --grid-line: rgba(240, 240, 245, 0.05);
-    --font-head: 'Barlow Condensed', sans-serif;
-    --font-body: 'Noto Sans KR', sans-serif;
-    --spacing-unit: 16px;
-    --container-width: 1440px;
+ --bg-primary: #08080f;
+ --bg-secondary: #12121a;
+ --text-main: #f0f0f5;
+ --text-muted: #8892b0;
+ --accent: #ff5c1a; /* Signal Orange */
+ --grid-line: rgba(240, 240, 245, 0.05);
+ --font-head: 'Barlow Condensed', sans-serif;
+ --font-body: 'Noto Sans KR', sans-serif;
+ --spacing-unit: 16px;
+ --container-width: 1440px;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-    background-color: var(--bg-primary);
-    color: var(--text-main);
-    font-family: var(--font-body);
-    line-height: 1.6;
-    overflow-x: hidden;
+ background-color: var(--bg-primary);
+ color: var(--text-main);
+ font-family: var(--font-body);
+ line-height: 1.6;
+ overflow-x: hidden;
 }
 
 /* Grid Background CSS DNA */
 body::before {
-    content: '';
-    position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    /* Night Transit Map Pattern Simulation */
-    background-image:
-        linear-gradient(var(--grid-line) 1px, transparent 1px),
-        linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
-    background-size: 48px 48px;
-    pointer-events: none;
-    z-index: -1;
+ content: '';
+ position: fixed;
+ top: 0; left: 0; width: 100%; height: 100%;
+ /* Night Transit Map Pattern Simulation */
+ background-image:
+ linear-gradient(var(--grid-line) 1px, transparent 1px),
+ linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+ background-size: 48px 48px;
+ pointer-events: none;
+ z-index: -1;
 }
 
 /* Typography Overrides */
@@ -86,20 +84,20 @@ a:hover { color: var(--accent); }
 
 /* Layout Utilities */
 .container {
-    width: 92%;
-    max-width: var(--container-width);
-    margin: 0 auto;
+ width: 92%;
+ max-width: var(--container-width);
+ margin: 0 auto;
 }
 
 .section-gap { padding: 120px 0; }
 
 /* Header & Nav */
 header {
-    position: fixed; top: 0; left: 0; width: 100%; z-index: 100;
-    background: rgba(8, 8, 15, 0.9);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--grid-line);
-    padding: 24px 0;
+ position: fixed; top: 0; left: 0; width: 100%; z-index: 100;
+ background: rgba(8, 8, 15, 0.9);
+ backdrop-filter: blur(10px);
+ border-bottom: 1px solid var(--grid-line);
+ padding: 24px 0;
 }
 
 .header-inner { display: flex; justify-content: space-between; align-items: center; }
@@ -110,156 +108,156 @@ header {
 /* Desktop Menu */
 nav.desktop-nav { display: none; }
 @media (min-width: 769px) {
-    nav.desktop-nav { display: block; gap: 48px; padding-left: 50px; font-weight: 500; text-transform: uppercase; font-family: var(--font-head); font-size: 1.2rem; }
+ nav.desktop-nav { display: block; gap: 48px; padding-left: 50px; font-weight: 500; text-transform: uppercase; font-family: var(--font-head); font-size: 1.2rem; }
 }
 
 /* Hero Section - Transit Map Vibe */
 .hero {
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
-    padding-top: 80px; /* Header offset */
-    position: relative;
-    background-image:
-        radial-gradient(circle at 10% 50%, rgba(255, 92, 26, 0.1) 0%, transparent 40%),
-        linear-gradient(var(--bg-primary) 30%, var(--bg-secondary) 31%);
+ min-height: 90vh;
+ display: flex;
+ align-items: center;
+ padding-top: 80px; /* Header offset */
+ position: relative;
+ background-image:
+ radial-gradient(circle at 10% 50%, rgba(255, 92, 26, 0.1) 0%, transparent 40%),
+ linear-gradient(var(--bg-primary) 30%, var(--bg-secondary) 31%);
 }
 
 .hero-grid-layout {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 72px;
-    position: relative;
-    z-index: 2;
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: 72px;
+ position: relative;
+ z-index: 2;
 }
 
 @media (min-width: 900px) {
-    .hero-grid-layout {
-        grid-template-columns: 1.4fr 1fr; /* Asymmetric Split */
-        align-items: center;
-    }
+ .hero-grid-layout {
+ grid-template-columns: 1.4fr 1fr; /* Asymmetric Split */
+ align-items: center;
+ }
 }
 
 .hero-text h1 {
-    font-size: clamp(2.5rem, 6vw, 5rem);
-    margin-bottom: 32px;
-    border-left: 8px solid var(--accent);
-    padding-left: 40px;
-    background-image: linear-gradient(to right, transparent, rgba(240, 240, 245, 0.1));
+ font-size: clamp(2.5rem, 6vw, 5rem);
+ margin-bottom: 32px;
+ border-left: 8px solid var(--accent);
+ padding-left: 40px;
+ background-image: linear-gradient(to right, transparent, rgba(240, 240, 245, 0.1));
 }
 
 .hero-meta {
-    font-family: monospace;
-    color: var(--accent);
-    font-size: 1rem;
-    border: 1px solid var(--text-muted);
-    display: inline-block;
-    padding: 8px 16px;
-    margin-bottom: 32px;
-    text-transform: uppercase;
+ font-family: monospace;
+ color: var(--accent);
+ font-size: 1rem;
+ border: 1px solid var(--text-muted);
+ display: inline-block;
+ padding: 8px 16px;
+ margin-bottom: 32px;
+ text-transform: uppercase;
 }
 
 .hero-phone {
-    font-family: var(--font-head);
-    font-weight: 900;
-    font-size: clamp(1.5rem, 4vw, 3.5rem);
-    color: #fff;
-    line-height: 1.1;
-    display: block;
+ font-family: var(--font-head);
+ font-weight: 900;
+ font-size: clamp(1.5rem, 4vw, 3.5rem);
+ color: #fff;
+ line-height: 1.1;
+ display: block;
 }
 
 /* Data Cells Layout (Grid Info) */
 .data-grid-section {
-    background-color: var(--bg-secondary);
-    border-top: 4px solid var(--accent);
+ background-color: var(--bg-secondary);
+ border-top: 4px solid var(--accent);
 }
 
 .grid-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 72px; /* Airy spacing */
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+ gap: 72px; /* Airy spacing */
 }
 
 .data-cell {
-    border: 1px solid rgba(255, 92, 26, 0.3);
-    padding: 40px;
-    position: relative;
-    background: rgba(8, 8, 15, 0.4);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ border: 1px solid rgba(255, 92, 26, 0.3);
+ padding: 40px;
+ position: relative;
+ background: rgba(8, 8, 15, 0.4);
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .data-cell:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(255, 92, 26, 0.15);
-    border-color: var(--accent);
+ transform: translateY(-5px);
+ box-shadow: 0 10px 30px rgba(255, 92, 26, 0.15);
+ border-color: var(--accent);
 }
 
 /* Route Badge Style */
 .route-badge {
-    position: absolute;
-    top: -12px; left: -12px;
-    width: 48px; height: 48px;
-    background: #fff; color: var(--bg-primary);
-    display: flex; align-items: center; justify-content: center;
-    font-family: var(--font-head);
-    font-weight: 900;
-    font-size: 1.2rem;
+ position: absolute;
+ top: -12px; left: -12px;
+ width: 48px; height: 48px;
+ background: #fff; color: var(--bg-primary);
+ display: flex; align-items: center; justify-content: center;
+ font-family: var(--font-head);
+ font-weight: 900;
+ font-size: 1.2rem;
 }
 
 .data-cell h3 {
-    margin-bottom: 24px;
-    font-size: 1.8rem;
-    color: #fff;
+ margin-bottom: 24px;
+ font-size: 1.8rem;
+ color: #fff;
 }
 
 /* Metro Timeline Style for Checklist */
 .timeline-section { position: relative; }
 
 .mt-line::before {
-    content: ''; position: absolute; left: 50%; top: -9999px; bottom: 9999px;
-    width: 2px; background: var(--text-muted);
-    transform: translateX(-50%);
+ content: ''; position: absolute; left: 50%; top: -9999px; bottom: 9999px;
+ width: 2px; background: var(--text-muted);
+ transform: translateX(-50%);
 }
 
 .mt-item {
-    position: relative;
-    padding-left: 60px;
-    padding-bottom: 60px;
-    text-align: center;
+ position: relative;
+ padding-left: 60px;
+ padding-bottom: 60px;
+ text-align: center;
 }
 
 .mt-item:last-child { padding-bottom: 0; }
 
 .mt-item::after {
-    content: ''; position: absolute; left: 50%; top: 20px;
-    width: 16px; height: 16px;
-    border-radius: 50%;
-    background: var(--accent);
-    transform: translate(-50%, -50%);
+ content: ''; position: absolute; left: 50%; top: 20px;
+ width: 16px; height: 16px;
+ border-radius: 50%;
+ background: var(--accent);
+ transform: translate(-50%, -50%);
 }
 
 .mt-item .mt-date {
-    display: block;
-    font-family: var(--font-head);
-    font-weight: 700;
-    font-size: 1.1rem;
-    color: #fff;
-    margin-bottom: 8px;
-    text-transform: uppercase;
+ display: block;
+ font-family: var(--font-head);
+ font-weight: 700;
+ font-size: 1.1rem;
+ color: #fff;
+ margin-bottom: 8px;
+ text-transform: uppercase;
 }
 
 .mt-item .mt-content {
-    font-size: 0.95rem;
-    color: var(--text-muted);
+ font-size: 0.95rem;
+ color: var(--text-muted);
 }
 
 /* Footer */
 footer {
-    background-color: var(--bg-secondary);
-    padding: 60px 0;
-    text-align: center;
-    font-size: 0.9rem;
-    color: var(--text-muted);
+ background-color: var(--bg-secondary);
+ padding: 60px 0;
+ text-align: center;
+ font-size: 0.9rem;
+ color: var(--text-muted);
 }
 
 footer p { margin-bottom: 0; max-width: none; }
@@ -268,144 +266,144 @@ footer a:hover { color: var(--accent); }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-    .section-gap { padding: 80px 0; }
-    .hero { min-height: 70vh; }
-    .hero-text h1 { padding-left: 20px; border-left-width: 5px; }
-    .grid-row { gap: 48px; }
-    .data-cell { padding: 32px; }
-    .route-badge { top: -10px; left: -10px; width: 40px; height: 40px; font-size: 1rem; }
+ .section-gap { padding: 80px 0; }
+ .hero { min-height: 70vh; }
+ .hero-text h1 { padding-left: 20px; border-left-width: 5px; }
+ .grid-row { gap: 48px; }
+ .data-cell { padding: 32px; }
+ .route-badge { top: -10px; left: -10px; width: 40px; height: 40px; font-size: 1rem; }
 }
 </style>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <meta name="msvalidate.01" content="3B4AA8395622C8C3F9C2868412D3A8C9">
-  <meta property="og:url" content="https://gasan-dev-trend.node-link.shop/">
+ <meta name="msvalidate.01" content="3B4AA8395622C8C3F9C2868412D3A8C9">
+ <meta property="og:url" content="https://gasan-dev-trend.node-link.shop/">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
 
 <header>
-    <div class="container header-inner">
-        <div class="logo">Gasan<span>Dev</span></div>
-        <nav class="desktop-nav">
-            <a href="#analysis">분석</a>
-            <a href="#recommendation">추천</a>
-            <a href="#process">프로세스</a>
-            <a href="#contact">문의</a>
-        </nav>
-    </div>
+ <div class="container header-inner">
+ <div class="logo">Gasan<span>Dev</span></div>
+ <nav class="desktop-nav">
+ <a href="#analysis">분석</a>
+ <a href="#recommendation">추천</a>
+ <a href="#process">프로세스</a>
+ <a href="#contact">문의</a>
+ </nav>
+ </div>
 </header>
 
 <section class="hero">
 
 <!-- SEO Visual 1: 가산 프로그램 개발 추천 Brutalist Avant-Garde Hero -->
 <div class="seo-visual-hero" role="img" aria-label="신뢰할 수 있는 서비스 — 가산 가산 프로그램 개발 추천" 
-     style="width:100%;padding:120px 0 60px 0;background:#ffffff;text-align:left;margin:0;position:relative">
-  <div style="max-width:1100px;margin:0 auto;padding:0 24px">
-    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.4em;color:#000000;margin-bottom:24px;text-transform:uppercase">/ PERSPECTIVE DECONSTRUCTED</div>
-    <div style="font-size:7.5vw;line-height:0.95;font-weight:900;font-family:serif;color:#000000;letter-spacing:-0.05em;margin:0 0 32px 0;text-transform:uppercase">가산 프로그램 개발 추천</div>
-    <p style="font-size:1.1rem;line-height:1.7;color:#000000;max-width:550px;font-weight:300;margin:0">신뢰할 수 있는 서비스</p>
-  </div>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"가산 프로그램 개발 추천","description":"신뢰할 수 있는 서비스","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
+ style="width:100%;padding:120px 0 60px 0;background:#ffffff;text-align:left;margin:0;position:relative">
+ <div style="max-width:1100px;margin:0 auto;padding:0 24px">
+ <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.4em;color:#000000;margin-bottom:24px;text-transform:uppercase">/ PERSPECTIVE DECONSTRUCTED</div>
+ <div style="font-size:7.5vw;line-height:0.95;font-weight:900;font-family:serif;color:#000000;letter-spacing:-0.05em;margin:0 0 32px 0;text-transform:uppercase">가산 프로그램 개발 추천</div>
+ <p style="font-size:1.1rem;line-height:1.7;color:#000000;max-width:550px;font-weight:300;margin:0">신뢰할 수 있는 서비스</p>
+ </div>
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"가산 프로그램 개발 추천","description":"신뢰할 수 있는 서비스","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
 </div>
-    <div class="container hero-grid-layout">
-        <div class="hero-text">
-            <h1>가산 프로그램 개발 추천</h1>
-            <div class="hero-meta">데이터 기반 최적 경로 분석</div>
-            <p>가산동 IT 생태계의 복잡한 현황을 간결하게 분석하여, 귀사의 성공적인 프로그램 개발을 위한 가장 현실적이고 효율적인 길을 제시합니다. 단순히 코드를 작성하는 것을 넘어, 비즈니스 목표 달성을 위한 최적의 개발 전략을 함께 모색합니다.</p>
-            <a href="#contact" class="hero-phone">010-6279-0862</a>
-        </div>
-        <div class="hero-image-placeholder">
-            <!-- Placeholder for a more dynamic visual element -->
-        </div>
-    </div>
+ <div class="container hero-grid-layout">
+ <div class="hero-text">
+ <h1>가산 프로그램 개발 추천</h1>
+ <div class="hero-meta">데이터 기반 최적 경로 분석</div>
+ <p>가산동 IT 생태계의 복잡한 현황을 간결하게 분석하여, 귀사의 성공적인 프로그램 개발을 위한 가장 현실적이고 효율적인 길을 제시합니다. 단순히 코드를 작성하는 것을 넘어, 비즈니스 목표 달성을 위한 최적의 개발 전략을 함께 모색합니다.</p>
+ <a href="#contact" class="hero-phone">010-6279-0862</a>
+ </div>
+ <div class="hero-image-placeholder">
+ <!-- Placeholder for a more dynamic visual element -->
+ </div>
+ </div>
 </section>
 
 <!-- SEO Visual 2: 프로그램 개발 Brutalist Typography Cards -->
 <div class="seo-visual-cards" role="img" aria-label="가산 프로그램 개발 추천 프로그램 개발 — 신뢰할 수 있는 서비스" 
-     style="display:flex;flex-direction:column;gap:80px;margin:120px auto;max-width:1100px;padding:0 24px">
-  <div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
-    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">01</div>
-    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">특화</div>
-    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">가산 프로그램 개발 추천</div>
-  </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
-    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">02</div>
-    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">다수 실적</div>
-    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">가산 프로그램 개발 추천</div>
-  </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
-    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">03</div>
-    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">고품질</div>
-    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">가산 프로그램 개발 추천</div>
-  </div>
+ style="display:flex;flex-direction:column;gap:80px;margin:120px auto;max-width:1100px;padding:0 24px">
+ <div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+ <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">01</div>
+ <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">특화</div>
+ <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">가산 프로그램 개발 추천</div>
+ </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+ <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">02</div>
+ <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">다수 실적</div>
+ <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">가산 프로그램 개발 추천</div>
+ </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+ <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">03</div>
+ <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">고품질</div>
+ <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">가산 프로그램 개발 추천</div>
+ </div>
 </div>
 
 <section class="data-grid-section section-gap">
-    <div class="container">
-        <div class="grid-row">
-            <div class="data-cell">
-                <div class="route-badge">A</div>
-                <h3>지역 IT 인력 분석</h3>
-                <p>가산디지털단지는 수많은 IT 기업과 개발자들이 밀집한 핵심 지역입니다. 이곳의 최신 인력 수급 동향, 주요 기술 스택, 그리고 개발자들의 평균 연봉 데이터를 면밀히 분석합니다. 단순히 숫자를 나열하는 것이 아니라, 이러한 데이터가 실제 프로젝트 성공에 어떤 영향을 미칠 수 있는지 심층적인 인사이트를 제공합니다. 예를 들어, 특정 기술 스택에 대한 수요가 급증하고 있다면, 해당 기술을 활용한 프로젝트가 인력 확보에 유리할 수 있습니다. 반대로, 공급에 과잉된 기술 분야는 경쟁 심화로 인해 개발 비용 상승의 요인이 될 수 있음을 미리 파악하는 것이 중요합니다. 저희는 가산동의 특화된 인력 시장 데이터를 기반으로, 귀사의 프로젝트에 가장 적합한 개발 인력을 효율적으로 확보할 수 있는 전략을 제시합니다.</p>
-            </div>
-            <div class="data-cell">
-                <div class="route-badge">B</div>
-                <h3>프로젝트 유형별 ROI</h3>
-                <p>프로그램 개발은 단순한 기술 구현 이상의 투자입니다. 저희는 가산동 지역의 시장 특성을 고려하여, 다양한 유형의 프로그램 개발 프로젝트(웹, 앱, 시스템 통합 등)가 가져올 잠재적 투자 수익률(ROI)을 예측합니다. 성공적인 프로젝트는 단순히 기능 구현을 넘어, 비즈니스 성장에 실질적인 기여를 해야 합니다. 이를 위해 시장 트렌드, 경쟁사 분석, 그리고 타겟 고객의 니즈를 종합적으로 고려합니다. 예를 들어, B2B SaaS 솔루션 개발은 안정적인 수익 모델을 구축할 수 있는 잠재력을 가지고 있으며, 최신 기술을 활용한 모바일 앱 개발은 폭발적인 사용자 확보를 통한 시장 선점 효과를 기대할 수 있습니다. 저희는 데이터 기반의 ROI 분석을 통해, 비용 대비 최대의 효과를 창출할 수 있는 프로그램 개발 방향을 추천해 드립니다.</p>
-            </div>
-            <div class="data-cell">
-                <div class="route-badge">C</div>
-                <h3>기술 스택 및 프레임워크 추천</h3>
-                <p>올바른 기술 스택 선택은 프로젝트의 성패를 좌우하는 핵심 요소입니다. 가산동 지역에서 현재 활발하게 사용되는 기술, 개발자 커뮤니티의 지원 현황, 그리고 장기적인 유지보수 용이성까지 고려하여 최적의 기술 스택과 프레임워크를 추천합니다. 최신 기술 트렌드를 맹목적으로 따르기보다는, 프로젝트의 목표, 규모, 예산, 그리고 팀의 역량을 종합적으로 고려한 실질적인 선택이 중요합니다. 예를 들어, 빠른 프로토타이핑과 MVP(Minimum Viable Product) 개발에는 특정 언어와 프레임워크가 유리할 수 있으먀, 대규모 트래픽 처리가 요구되는 서비스에는 확장성이 뛰어난 아키텍처와 기술이 필요합니다. 저희는 가산동의 개발 환경에 대한 깊이 있는 이해를 바탕으로, 귀사의 프로젝트에 가장 적합한 기술 로드맵을 설계합니다.</p>
-            </div>
-            <div class="data-cell">
-                <div class="route-badge">D</div>
-                <h3>효율적인 개발 프로세스 설계</h3>
-                <p>성공적인 프로그램 개발은 체계적인 프로세스에서 시작됩니다. 저희는 가산동 지역의 IT 기업들이 일반적으로 채택하는 개발 방법론(Agile, Waterfall 등)과 협업 도구들을 분석하고, 귀사의 프로젝트 특성에 맞는 최적의 개발 프로세스를 설계합니다. 단순히 개깔 일정을 단축하는 것을 넘어, 코드 품질 향상, 머그 감소, 그리고 원활한 팀워크를 위한 프로세스 구축에 집중합니다. 애자일 방법론을 통해 변화하는 요구사항에 유연하게 대응하고, 지속적인 통합 및 배포(CI/CD) 파이프라인을 구축하여 개발 효율성을 극대화할 수 있습니다. 또한, 효과적인 커뮤니케이션 채널과 이슈 트래킹 시스템을 통해 프로젝트 진행 상황을 투명하게 관리하고, 잠재적인 위험 요소를 사전에 제거합니다. 저희는 가산동의 실질적인 개발 환경에 기반한 맞춤형 프로세스 설계를 통해, 프로젝트 성공 확률을 높입니다.</p>
-            </div>
-        </div>
-    </div>
+ <div class="container">
+ <div class="grid-row">
+ <div class="data-cell">
+ <div class="route-badge">A</div>
+ <h3>지역 IT 인력 분석</h3>
+ <p>가산디지털단지는 수많은 IT 기업과 개발자들이 밀집한 핵심 지역입니다. 이곳의 최신 인력 수급 동향, 주요 기술 스택, 그리고 개발자들의 평균 연봉 데이터를 면밀히 분석합니다. 단순히 숫자를 나열하는 것이 아니라, 이러한 데이터가 실제 프로젝트 성공에 어떤 영향을 미칠 수 있는지 심층적인 인사이트를 제공합니다. 예를 들어, 특정 기술 스택에 대한 수요가 급증하고 있다면, 해당 기술을 활용한 프로젝트가 인력 확보에 유리할 수 있습니다. 반대로, 공급에 과잉된 기술 분야는 경쟁 심화로 인해 개발 비용 상승의 요인이 될 수 있음을 미리 파악하는 것이 중요합니다. 저희는 가산동의 특화된 인력 시장 데이터를 기반으로, 귀사의 프로젝트에 가장 적합한 개발 인력을 효율적으로 확보할 수 있는 전략을 제시합니다.</p>
+ </div>
+ <div class="data-cell">
+ <div class="route-badge">B</div>
+ <h3>프로젝트 유형별 ROI</h3>
+ <p>프로그램 개발은 단순한 기술 구현 이상의 투자입니다. 저희는 가산동 지역의 시장 특성을 고려하여, 다양한 유형의 프로그램 개발 프로젝트(웹, 앱, 시스템 통합 등)가 가져올 잠재적 투자 수익률(ROI)을 예측합니다. 성공적인 프로젝트는 단순히 기능 구현을 넘어, 비즈니스 성장에 실질적인 기여를 해야 합니다. 이를 위해 시장 트렌드, 경쟁사 분석, 그리고 타겟 고객의 니즈를 종합적으로 고려합니다. 예를 들어, B2B SaaS 솔루션 개발은 안정적인 수익 모델을 구축할 수 있는 잠재력을 가지고 있으며, 최신 기술을 활용한 모바일 앱 개발은 폭발적인 사용자 확보를 통한 시장 선점 효과를 기대할 수 있습니다. 저희는 데이터 기반의 ROI 분석을 통해, 비용 대비 최대의 효과를 창출할 수 있는 프로그램 개발 방향을 추천해 드립니다.</p>
+ </div>
+ <div class="data-cell">
+ <div class="route-badge">C</div>
+ <h3>기술 스택 및 프레임워크 추천</h3>
+ <p>올바른 기술 스택 선택은 프로젝트의 성패를 좌우하는 핵심 요소입니다. 가산동 지역에서 현재 활발하게 사용되는 기술, 개발자 커뮤니티의 지원 현황, 그리고 장기적인 유지보수 용이성까지 고려하여 최적의 기술 스택과 프레임워크를 추천합니다. 최신 기술 트렌드를 맹목적으로 따르기보다는, 프로젝트의 목표, 규모, 예산, 그리고 팀의 역량을 종합적으로 고려한 실질적인 선택이 중요합니다. 예를 들어, 빠른 프로토타이핑과 MVP(Minimum Viable Product) 개발에는 특정 언어와 프레임워크가 유리할 수 있으먀, 대규모 트래픽 처리가 요구되는 서비스에는 확장성이 뛰어난 아키텍처와 기술이 필요합니다. 저희는 가산동의 개발 환경에 대한 깊이 있는 이해를 바탕으로, 귀사의 프로젝트에 가장 적합한 기술 로드맵을 설계합니다.</p>
+ </div>
+ <div class="data-cell">
+ <div class="route-badge">D</div>
+ <h3>효율적인 개발 프로세스 설계</h3>
+ <p>성공적인 프로그램 개발은 체계적인 프로세스에서 시작됩니다. 저희는 가산동 지역의 IT 기업들이 일반적으로 채택하는 개발 방법론(Agile, Waterfall 등)과 협업 도구들을 분석하고, 귀사의 프로젝트 특성에 맞는 최적의 개발 프로세스를 설계합니다. 단순히 개깔 일정을 단축하는 것을 넘어, 코드 품질 향상, 머그 감소, 그리고 원활한 팀워크를 위한 프로세스 구축에 집중합니다. 애자일 방법론을 통해 변화하는 요구사항에 유연하게 대응하고, 지속적인 통합 및 배포(CI/CD) 파이프라인을 구축하여 개발 효율성을 극대화할 수 있습니다. 또한, 효과적인 커뮤니케이션 채널과 이슈 트래킹 시스템을 통해 프로젝트 진행 상황을 투명하게 관리하고, 잠재적인 위험 요소를 사전에 제거합니다. 저희는 가산동의 실질적인 개발 환경에 기반한 맞춤형 프로세스 설계를 통해, 프로젝트 성공 확률을 높입니다.</p>
+ </div>
+ </div>
+ </div>
 </section>
 
 <section class="timeline-section section-gap" id="process">
-    <div class="container">
-        <h2 style="text-align: center; margin-bottom: 60px;">맞춤형 개발 프로세스</h2>
-        <div class="mt-line">
-            <div class="mt-item">
-                <span class="mt-date">1단계</span>
-                <div class="mt-content">
-                    <p><strong>요구사항 분석 및 기획</strong></p>
-                    <p>프로젝트의 목표, 기능, 사용자 경험(UX)을 명확히 정의합니다.</p>
-                </div>
-            </div>
-            <div class="mt-item">
-                <span class="mt-date">2단계</span>
-                <div class="mt-content">
-                    <p><strong>설계 및 아키텍처</strong></p>
-                    <p>안정적이고 확장 가능한 시스템 아키텍처를 설계합니다.</p>
-                </div>
-            </div>
-            <div class="mt-item">
-                <span class="mt-date">3단계</span>
-                <div class="mt-content">
-                    <p><strong>개발 및 테스트</strong></p>
-                    <p>최신 개발 방법론을 적용하여 코드를 작성하고 철저한 테스트를 진행합니다.</p>
-                </div>
-            </div>
-            <div class="mt-item">
-                <span class="mt-date">4단계</span>
-                <div class="mt-content">
-                    <p><strong>배포 및 안정화</strong></p>
-                    <p>안전하게 프로그램을 배포하고, 초기 운영 단계에서의 안정성을 확보합니다.</p>
-                </div>
-            </div>
-            <div class="mt-item">
-                <span class="mt-date">5단계</span>
-                <div class="mt-content">
-                    <p><strong>유지보수 및 고도화</strong></p>
-                    <p>지속적인 모니터링과 피드백을 통해 프로그램을 개선하고 발전시킵니다.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+ <div class="container">
+ <h2 style="text-align: center; margin-bottom: 60px;">맞춤형 개발 프로세스</h2>
+ <div class="mt-line">
+ <div class="mt-item">
+ <span class="mt-date">1단계</span>
+ <div class="mt-content">
+ <p><strong>요구사항 분석 및 기획</strong></p>
+ <p>프로젝트의 목표, 기능, 사용자 경험(UX)을 명확히 정의합니다.</p>
+ </div>
+ </div>
+ <div class="mt-item">
+ <span class="mt-date">2단계</span>
+ <div class="mt-content">
+ <p><strong>설계 및 아키텍처</strong></p>
+ <p>안정적이고 확장 가능한 시스템 아키텍처를 설계합니다.</p>
+ </div>
+ </div>
+ <div class="mt-item">
+ <span class="mt-date">3단계</span>
+ <div class="mt-content">
+ <p><strong>개발 및 테스트</strong></p>
+ <p>최신 개발 방법론을 적용하여 코드를 작성하고 철저한 테스트를 진행합니다.</p>
+ </div>
+ </div>
+ <div class="mt-item">
+ <span class="mt-date">4단계</span>
+ <div class="mt-content">
+ <p><strong>배포 및 안정화</strong></p>
+ <p>안전하게 프로그램을 배포하고, 초기 운영 단계에서의 안정성을 확보합니다.</p>
+ </div>
+ </div>
+ <div class="mt-item">
+ <span class="mt-date">5단계</span>
+ <div class="mt-content">
+ <p><strong>유지보수 및 고도화</strong></p>
+ <p>지속적인 모니터링과 피드백을 통해 프로그램을 개선하고 발전시킵니다.</p>
+ </div>
+ </div>
+ </div>
+ </div>
 
 <div class="seo-visual-divider" role="separator" aria-label="가산 프로그램 개발 추천 구분선" style="margin:80px 0;height:1px;background:#666666;opacity:0.1"></div>
 </section>
@@ -440,11 +438,11 @@ footer a:hover { color: var(--accent); }
 
 
 <section class="xktwows" aria-label="최신 글 피드" style="padding:60px 20px;border-top:1px solid rgba(128,128,128,.18);border-bottom:1px solid rgba(128,128,128,.18)">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:inherit;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div style="max-width:1100px;margin:0 auto">
+ <h3 style="font-size:1.5rem;font-weight:800;color:inherit;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">최신 관련 포스트</h3>
+ <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
+ 
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
 <h2>가산 프로그램 개발 추천 개요</h2>
 <p>가산 지역은 지하철 1호선과 7호선이 교차하는 교통 요지로 개발 인력과 클라이언트 간의 이동 시간을 크게 단축할 수 있으며, 주변에 대형 오피스 빌딩과 코워킹 스페이스가 밀집해 있어 협업 환경을 조성하기에 유리합니다.</p>
 <p>노선도 기반 최적 경로 분석을 적용하면 프로젝트 현장, 회의실, 협력 업체 사무실, 테스트 랩 등을 연결하는 가장 효율적인 동선을 자동으로 산출할 수 있고, 실시간 교통 정보를 반영해 돌발 상황에 대비한 대체 경로도 제시합니다.</p>
@@ -452,233 +450,233 @@ footer a:hover { color: var(--accent); }
 <p>프로젝트 규모와 성격에 따라 인력 풀을 탄력적으로 구성하고 일정 관리 도구와 이슈 트래킹 시스템을 연계해 마일스톤별 진행 상황을 실시간으로 모니터링하며, 위험 요소를 조기에 식별해 대응 계획을 수립합니다.</p>
 <p>지속적인 기술 스택 업데이트와 코드 리뷰, 자동화 테스트 환경을 통해 품질을 안정적으로 유지하며, 납품 후에도 유지보수 전담팀을 운영해 버그 수정, 성능 튜닝, 기능 확장을 신속하게 처리할 수 있는 체계를 갖추고 있습니다.</p>
 </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">가산 프로그램 개발 추천을 받기 전에 확인해야 할 밸런스 붕괴 시나리오 3 가지</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아니, 사실 저도 이 게임의 확장팩이 2 인용에서 왜 이렇게 난리인지 처음엔 잘 몰라서 그런데, 몇 번 테스트를 해보니까 숫자 계산만으로도 시스템이 무너지는 걸 직접 본 적이 있어요. (//∇//)책상 위에 쌓인 룰북과 코드 스니펫들이 어질러져 있으면서도, 누군가에게는</p>
-      </div>
-      <a href="posts/checklist-005-1ohfb0z.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">테라포밍 마스 2인용 계산 복잡도와 부품 분실의 상관관계 분석 체크리스트</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">테라포밍 마스 비너스 확장의 2 인 용 밸런스 붕괴는 단순한 룰 차이보다 계산 부하에서 비롯됩니다. 카페에서 보드게임을 운영하다 보면 손님들이 자주 잃어버리는 것은 게임판이 아니라 복잡한 계산 도구가 되곤 하죠. ^^; 특히 비너스 확장판을 쓸 때 마커 관리가 안 되면</p>
-      </div>
-      <a href="posts/checklist-005-trkkhi.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>COMPARE</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">잘 몰라서 그런데... 사장님이 진짜 계산할 때 쓰는 툴을 봤어요?</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">2023 년 홍대에서만 커피숍 174 곳의 문이 닫혔다고 들었죠. 저는 매일 그 가게 앞에 앉아 있던 단골 손님이라서, 문을 열 때와 닫을 때의 사연까지 몰랐으면 좋겠더라고요. 😔 ## ## 1. 사장님의 숨겨진 계산법과 원가 관리사실 사장님들은 메뉴판에 적힌 가격보</p>
-      </div>
-      <a href="posts/compare-004-1h8twvc.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>COMPARE</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">잘 몰라서 그런데, 데이터 마이닝으로 찾은 미사용 보스는 당신의 코드 최적화에도 영향을 줘?</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">데이터 마이닝 결과로 발견된 미사용 보스 3 종은 개발 당시 예산 부족보다는 엔진 호환성 문제에서 비롯됐어요. 단순히 잘 만들지 못한 게 아니라, 아예 환경에 맞지 않는 설정이 숨어 있었거든요. 이런 경우를 보면 초기 선택한 툴이 프로젝트의 숨겨진 잠재력을 어떻게 결정</p>
-      </div>
-      <a href="posts/compare-004-1hiqh0n.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">아, 그 당시엔 몰랐던 걸까... 스팀 출시 3 일 만에 사라진 데모의 진실과 가산 프로그램 개발 추천</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">잘 몰라서 그런데, 지난밤 늦게 하드 드라이브를 정리하다 보면 갑자기 궁금한 게 하나 생길 때가 있죠. 특히 3 일 만에 판매가 중단된 게임 데이터를 보며 '왜 이 정도로 줄어든 걸까'라는 생각이 드는 순간이 있어요. 사실은 개발자로서 본인이 놓친 디테일을 찾아내는 과</p>
-      </div>
-      <a href="posts/field_note-001-1e4jihi.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">1972 년 겨울, 비가 내리는 창문 너머의 세 가지 파일</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">함께 보면 좋은 정보 심층 정보와 실제 데이터는 gangnam-doorway2를 참고하세요. 자세한 기술 명세 가이드는 공식 가이드 커뮤니티를 참고하십시오.</p>
-      </div>
-      <a href="posts/field_note-001-6oy3e5.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">가산 프로그램 개발 추천 시 가장 먼저 확인해야 할 그 일곱 번째 페이지</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아, 7 장 슬라이드라니... 언론에서는 넘기기 쉬운 숫자였죠. 제가 본 자료에 따르면 구글 트렌드는 실제 사건 발생 시점보다 약 두 달 뒤부터 급등했어요. 보통 개발자들은 전체 데이터를 보지만, 7 장 같은 핵심은 놓치기 쉬워요. ## 데이터 흐름과 시간의 간격 특정</p>
-      </div>
-      <a href="posts/field_note-002-1gm30cu.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>GUIDE</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">프리즘 슬라이드 7 번과 데이터 신뢰성 검증 프로세스</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">nsa,prism-program,slide-7,metadata-collection,signal-interception,deep-state,security-breach,data-science,2013-leak,booru-style,nsa-documents 아, 진짜...</p>
-      </div>
-      <a href="posts/guide-002-1h4832z.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>GUIDE</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">Created Title</h4>
-        
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">가산 프로그램 개발 추천을 받기 전에 확인해야 할 밸런스 붕괴 시나리오 3 가지</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아니, 사실 저도 이 게임의 확장팩이 2 인용에서 왜 이렇게 난리인지 처음엔 잘 몰라서 그런데, 몇 번 테스트를 해보니까 숫자 계산만으로도 시스템이 무너지는 걸 직접 본 적이 있어요. (//∇//)책상 위에 쌓인 룰북과 코드 스니펫들이 어질러져 있으면서도, 누군가에게는</p>
+ </div>
+ <a href="posts/checklist-005-1ohfb0z.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">테라포밍 마스 2인용 계산 복잡도와 부품 분실의 상관관계 분석 체크리스트</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">테라포밍 마스 비너스 확장의 2 인 용 밸런스 붕괴는 단순한 룰 차이보다 계산 부하에서 비롯됩니다. 카페에서 보드게임을 운영하다 보면 손님들이 자주 잃어버리는 것은 게임판이 아니라 복잡한 계산 도구가 되곤 하죠. ^^; 특히 비너스 확장판을 쓸 때 마커 관리가 안 되면</p>
+ </div>
+ <a href="posts/checklist-005-trkkhi.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>COMPARE</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">잘 몰라서 그런데.. 사장님이 진짜 계산할 때 쓰는 툴을 봤어요?</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">2023 년 홍대에서만 커피숍 174 곳의 문이 닫혔다고 들었죠. 저는 매일 그 가게 앞에 앉아 있던 단골 손님이라서, 문을 열 때와 닫을 때의 사연까지 몰랐으면 좋겠더라고요. 😔 ## ## 1. 사장님의 숨겨진 계산법과 원가 관리사실 사장님들은 메뉴판에 적힌 가격보</p>
+ </div>
+ <a href="posts/compare-004-1h8twvc.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>COMPARE</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">잘 몰라서 그런데, 데이터 마이닝으로 찾은 미사용 보스는 당신의 코드 최적화에도 영향을 줘?</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">데이터 마이닝 결과로 발견된 미사용 보스 3 종은 개발 당시 예산 부족보다는 엔진 호환성 문제에서 비롯됐어요. 단순히 잘 만들지 못한 게 아니라, 아예 환경에 맞지 않는 설정이 숨어 있었거든요. 이런 경우를 보면 초기 선택한 툴이 프로젝트의 숨겨진 잠재력을 어떻게 결정</p>
+ </div>
+ <a href="posts/compare-004-1hiqh0n.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">아, 그 당시엔 몰랐던 걸까.. 스팀 출시 3 일 만에 사라진 데모의 진실과 가산 프로그램 개발 추천</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">잘 몰라서 그런데, 지난밤 늦게 하드 드라이브를 정리하다 보면 갑자기 궁금한 게 하나 생길 때가 있죠. 특히 3 일 만에 판매가 중단된 게임 데이터를 보며 '왜 이 정도로 줄어든 걸까'라는 생각이 드는 순간이 있어요. 사실은 개발자로서 본인이 놓친 디테일을 찾아내는 과</p>
+ </div>
+ <a href="posts/field_note-001-1e4jihi.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">1972 년 겨울, 비가 내리는 창문 너머의 세 가지 파일</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">함께 보면 좋은 정보 심층 정보와 실제 데이터는 gangnam-doorway2를 참고하세요. 자세한 기술 명세 가이드는 공식 가이드 커뮤니티를 참고하십시오.</p>
+ </div>
+ <a href="posts/field_note-001-6oy3e5.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">가산 프로그램 개발 추천 시 가장 먼저 확인해야 할 그 일곱 번째 페이지</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아, 7 장 슬라이드라니.. 언론에서는 넘기기 쉬운 숫자였죠. 제가 본 자료에 따르면 구글 트렌드는 실제 사건 발생 시점보다 약 두 달 뒤부터 급등했어요. 보통 개발자들은 전체 데이터를 보지만, 7 장 같은 핵심은 놓치기 쉬워요. ## 데이터 흐름과 시간의 간격 특정</p>
+ </div>
+ <a href="posts/field_note-002-1gm30cu.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>GUIDE</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">프리즘 슬라이드 7 번과 데이터 신뢰성 검증 프로세스</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">nsa,prism-program,slide-7,metadata-collection,signal-interception,deep-state,security-breach,data-science,2013-leak,booru-style,nsa-documents 아, 진짜..</p>
+ </div>
+ <a href="posts/guide-002-1h4832z.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>GUIDE</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">Created Title</h4>
+ 
 </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>GUIDE</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">...</h4>
-        
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>GUIDE</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">..</h4>
+ 
 </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-07-03">2026-07-03</time>
-        </div>
-        
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-07-03">2026-07-03</time>
+ </div>
+ 
 </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">가산 프로그램 개발 추천 경험자에게 물어본 현실적인 판단 기준</h4>
-        
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-10">2026-06-10</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">가산 프로그램 개발 추천 경험자에게 물어본 현실적인 판단 기준</h4>
+ 
 </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">MK울트라 프로젝트의 1972년 의회 청문회에서 공개되지 않은 서브프로젝트</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아, 진짜... MK울트라는 CIA 비밀 프로젝트였단 말이야. 그걸 깊게 파악한 건 스노든이라고. 음모론과 사실의 차이는 뭐냐고? 실상은 그런 거 아니야. 데이터 과학자로서, 이번 글에서 '데이터 트렌드 분석'을 통해 MK울트라 프로젝트의 서브프로젝트에 대한 진실을 파</p>
-      </div>
-      <a href="posts/myth-001-12fv2i1.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">가산 프로그램 개발 추천에 관한 흔한 오해, 직접 확인해보니 달랐던 점</h4>
-        
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-10">2026-06-10</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">MK울트라 프로젝트의 1972년 의회 청문회에서 공개되지 않은 서브프로젝트</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아, 진짜.. MK울트라는 CIA 비밀 프로젝트였단 말이야. 그걸 깊게 파악한 건 스노든이라고. 음모론과 사실의 차이는 뭐냐고? 실상은 그런 거 아니야. 데이터 과학자로서, 이번 글에서 '데이터 트렌드 분석'을 통해 MK울트라 프로젝트의 서브프로젝트에 대한 진실을 파</p>
+ </div>
+ <a href="posts/myth-001-12fv2i1.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-10">2026-06-10</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">가산 프로그램 개발 추천에 관한 흔한 오해, 직접 확인해보니 달랐던 점</h4>
+ 
 </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">가산 프로그램 개발 추천, 사실 스노든 슬라이드 7 장이 힌트였어요 🤫</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">슬라이드 7 번에서 언급된 데이터 흐름이 실제로 어떤 영향을 끼쳤는지 궁금하셨죠? 언론이 공개한 버전은 깔끔하지만 원본 USB 에는 훨씬 더 복잡한 변수들이 숨겨져 있었어요. 저도 처음 봤을 때는 그냥 단순한 로그로 생각했는데, 나중에 다시 들여다보면 완전히 다른 그림</p>
-      </div>
-      <a href="posts/qa-003-14y7pvs.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">잘 모르겠는데 편집기사분들은 왜 그거만 자르길래? 타일러 등장 전의 숨은 프레임 정리</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">타일러 더든이 진짜 얼굴을 드러내기 전, 영화는 0.1 초의 틈새를 채우기 위해 몇 번의 컷을 희생했을까요? 사실 저도 처음엔 그냥 빠른 컷팅이라 생각했어요. 하지만 여러 자료를 뒤적여 보니, 그건 단순한 편집 실수가 아니라 의도된 '숨은 디테일'이었던 거예요. ^^ </p>
-      </div>
-      <a href="posts/qa-003-7e7uah.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">첫 번째 배포가 성공하면 좋지만, 두 번째 유지보수가 더 중요하다는 것</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">anime_girl(1.3), cybernetic_arms, laptop_computer(1.2), cafe_interior, server_room, blue_hair, light_blue_hair, cosplay, hacker_mode, neon_lights, 202</p>
-      </div>
-      <a href="posts/qa-004-7uwkt.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-16">2026-06-16</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">마스 확장팩 중고 거래와 2인 게임 밸런스, 비교해본 심층 분석</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">어디서 본 적 있으신가요? 아니면 직접 구매할 계획이 있으신가요? ^^; 너무 깊게 들으시겠지만, 제가 실제로 중고 거래를 몇 번 겪으면서 느낀 점이 있어 공유하고 싶어서요. 베네수아 확장팩은 구하기 어려운 아이템이라 가격 변동이 심한 편입니다. 특히 2 인 플레이 모</p>
-      </div>
-      <a href="posts/review-001-me0ulo.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-15">2026-06-15</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">사장님 몰래 계산한 메뉴 원가, 이게 다 3 개월 동안의 단골 밥값이예요? 🥺</h4>
-        <h2>1. 시작은 호기심에서 3 개월 동안 매번 같은 메뉴를 주문하면서도 사장님이 계산을 하는 모습을 보며 궁금증이 생겼어요. 단순하게 맛만 본 게 아니라 재료비와 판매 단가 사이의 간격에 대한 호기심이 커졌죠 ^^ 이 과정에서 자연스럽게 알게 된 원가 구조를 정리해</h2>
-      </div>
-      <a href="posts/review-002-1f6h8x0.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
-          <span>REVIEW</span>
-          <time datetime="2026-06-15">2026-06-15</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">가산 프로그램 개발 추천만큼 치밀한, 글룸헤이븐 카드 수정 논리</h4>
-        <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아, 진짜... 구체적인 스탯 수치부터 궁금한 게 생겼어요? 😅 1 판과 2 판 사이 클래스 카드 7 종의 변경 사항을 비교해 보면, 단순히 숫자만 변하는 게 아니라 메커니즘이 달라지는 경우가 많거든요. 특히 '과도한 친절형'인 제가 봤을 때, 어떤 카드는 공격력 대</p>
-      </div>
-      <a href="posts/t3link-001-1n70qeq.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
-    </article>
-    </div>
-  </div>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">가산 프로그램 개발 추천, 사실 스노든 슬라이드 7 장이 힌트였어요 🤫</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">슬라이드 7 번에서 언급된 데이터 흐름이 실제로 어떤 영향을 끼쳤는지 궁금하셨죠? 언론이 공개한 버전은 깔끔하지만 원본 USB 에는 훨씬 더 복잡한 변수들이 숨겨져 있었어요. 저도 처음 봤을 때는 그냥 단순한 로그로 생각했는데, 나중에 다시 들여다보면 완전히 다른 그림</p>
+ </div>
+ <a href="posts/qa-003-14y7pvs.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">잘 모르겠는데 편집기사분들은 왜 그거만 자르길래? 타일러 등장 전의 숨은 프레임 정리</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">타일러 더든이 진짜 얼굴을 드러내기 전, 영화는 0.1 초의 틈새를 채우기 위해 몇 번의 컷을 희생했을까요? 사실 저도 처음엔 그냥 빠른 컷팅이라 생각했어요. 하지만 여러 자료를 뒤적여 보니, 그건 단순한 편집 실수가 아니라 의도된 '숨은 디테일'이었던 거예요. ^^ </p>
+ </div>
+ <a href="posts/qa-003-7e7uah.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">첫 번째 배포가 성공하면 좋지만, 두 번째 유지보수가 더 중요하다는 것</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">anime_girl(1.3), cybernetic_arms, laptop_computer(1.2), cafe_interior, server_room, blue_hair, light_blue_hair, cosplay, hacker_mode, neon_lights, 202</p>
+ </div>
+ <a href="posts/qa-004-7uwkt.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-16">2026-06-16</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">마스 확장팩 중고 거래와 2인 게임 밸런스, 비교해본 심층 분석</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">어디서 본 적 있으신가요? 아니면 직접 구매할 계획이 있으신가요? ^^; 너무 깊게 들으시겠지만, 제가 실제로 중고 거래를 몇 번 겪으면서 느낀 점이 있어 공유하고 싶어서요. 베네수아 확장팩은 구하기 어려운 아이템이라 가격 변동이 심한 편입니다. 특히 2 인 플레이 모</p>
+ </div>
+ <a href="posts/review-001-me0ulo.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-15">2026-06-15</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">사장님 몰래 계산한 메뉴 원가, 이게 다 3 개월 동안의 단골 밥값이예요? 🥺</h4>
+ <h2>1. 시작은 호기심에서 3 개월 동안 매번 같은 메뉴를 주문하면서도 사장님이 계산을 하는 모습을 보며 궁금증이 생겼어요. 단순하게 맛만 본 게 아니라 재료비와 판매 단가 사이의 간격에 대한 호기심이 커졌죠 ^^ 이 과정에서 자연스럽게 알게 된 원가 구조를 정리해</h2>
+ </div>
+ <a href="posts/review-002-1f6h8x0.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ <article data-rpc="1" class="xktwowc" style="background:transparent;border-radius:12px;padding:24px;border:1px solid rgba(128,128,128,.2);transition:transform 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;opacity:.6">
+ <span>REVIEW</span>
+ <time datetime="2026-06-15">2026-06-15</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">가산 프로그램 개발 추천만큼 치밀한, 글룸헤이븐 카드 수정 논리</h4>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아, 진짜.. 구체적인 스탯 수치부터 궁금한 게 생겼어요? 😅 1 판과 2 판 사이 클래스 카드 7 종의 변경 사항을 비교해 보면, 단순히 숫자만 변하는 게 아니라 메커니즘이 달라지는 경우가 많거든요. 특히 '과도한 친절형'인 제가 봤을 때, 어떤 카드는 공격력 대</p>
+ </div>
+ <a href="posts/t3link-001-1n70qeq.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
+ </article>
+ </div>
+ </div>
 </section>
 <footer id="contact">
-    <div class="container">
-        <p>가산동에서의 성공적인 프로그램 개발, <br>지금 바로 전문가와 상담하세요.</p>
-        <p><a href="tel:010-6279-0862"><strong>010-6279-0862</strong></a></p>
-        <p>All Rights Reserved. GasanDev.</p>
-    </div>
+ <div class="container">
+ <p>가산동에서의 성공적인 프로그램 개발, <br>지금 바로 전문가와 상담하세요.</p>
+ <p><a href="tel:010-6279-0862"><strong>010-6279-0862</strong></a></p>
+ <p>All Rights Reserved. GasanDev.</p>
+ </div>
 </footer>
 
 
-    <div class="juice-ref-v164m1" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
-      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
-      <ul style="list-style:none;padding:0;margin:0;">
-      <li>이 주제에 대한 더 전문적인 분석은 <a href="https://hikari-fiber.store/">tokyo-fiber</a>에서 확인하실 수 있습니다.</li>
-      <li>자세한 기술 명세 가이드는 <a href="https://ko.wikipedia.org/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
-      </ul>
-    </div>
+ <div class="juice-ref-v164m1" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+ <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+ <ul style="list-style:none;padding:0;margin:0;">
+ <li>이 주제에 대한 더 전문적인 분석은 <a href="https://hikari-fiber.store/">tokyo-fiber</a>에서 확인하실 수 있습니다.</li>
+ <li>자세한 기술 명세 가이드는 <a href="https://ko.wikipedia.org/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+ </ul>
+ </div>
 </body>
 </html>

@@ -1,214 +1,212 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>가산동 개발자 생존 가이드 | 야근이 적은 곳으로의 최적 경로</title>
-    <meta name="description" content="가산동은 단순 IT 클러스터가 아닙니다. 밤 8 시 이후에도 등불이 켜진 오피스 빌딩들의 군집, 그리고 그곳에서 벌어지는 치열한 개발자 생존 경쟁을 담은 현실적인 가이드입니다.">
-    <meta name="keywords" content="가산동 개발자 생활, 야근 문화 분석, 가산동 코딩 카페, IT 클러스터 생태계, 밤길 통근">
-    <link rel="canonical" href="https://gasan-dev-trend.node-link.shop/about.html">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-night-signal">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>가산동 개발자 생존 가이드 | 야근이 적은 곳으로의 최적 경로</title>
+ <meta name="description" content="가산동은 단순 IT 클러스터가 아닙니다. 밤 8 시 이후에도 등불이 켜진 오피스 빌딩들의 군집, 그리고 그곳에서 벌어지는 치열한 개발자 생존 경쟁을 담은 현실적인 가이드입니다.">
+ <meta name="keywords" content="가산동 개발자 생활, 야근 문화 분석, 가산동 코딩 카페, IT 클러스터 생태계, 밤길 통근">
+ <link rel="canonical" href="https://gasan-dev-trend.node-link.shop/about.html">
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="가산동 개발자 생존 가이드 | 야근이 적은 곳으로의 최적 경로">
-    <meta property="og:description" content="가산동은 단순 IT 클러스터가 아닙니다. 밤 8 시 이후에도 등불이 켜진 오피스 빌딩들의 군집, 그리고 그곳에서 벌어지는 치열한 개발자 생존 경쟁을 담은 현실적인 가이드입니다.">
+ <!-- Open Graph -->
+ <meta property="og:type" content="website">
+ <meta property="og:title" content="가산동 개발자 생존 가이드 | 야근이 적은 곳으로의 최적 경로">
+ <meta property="og:description" content="가산동은 단순 IT 클러스터가 아닙니다. 밤 8 시 이후에도 등불이 켜진 오피스 빌딩들의 군집, 그리고 그곳에서 벌어지는 치열한 개발자 생존 경쟁을 담은 현실적인 가이드입니다.">
 
-    <!-- CSS Variables & Reset -->
-    <style>
-        :root {
-            --bg-color: #0f172a;
-            --card-bg: #1e293b;
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --accent-cyan: #22d3ee;
-            --accent-pink: #f472b6;
-            --accent-yellow: #facc15;
-            --border-color: #334155;
-            
-            --font-head: "Inter", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-            --font-mono: "Fira Code", Consolas, monospace;
-        }
+ <!-- CSS Variables & Reset -->
+ <style>
+ :root {
+ --bg-color: #0f172a;
+ --card-bg: #1e293b;
+ --text-main: #f8fafc;
+ --text-muted: #94a3b8;
+ --accent-cyan: #22d3ee;
+ --accent-pink: #f472b6;
+ --accent-yellow: #facc15;
+ --border-color: #334155;
+ 
+ --font-head: "Inter", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+ --font-mono: "Fira Code", Consolas, monospace;
+ }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        
-        body {
-            font-family: var(--font-head);
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+ body {
+ font-family: var(--font-head);
+ background-color: var(--bg-color);
+ color: var(--text-main);
+ line-height: 1.6;
+ overflow-x: hidden;
+ }
 
-        /* Layout Container */
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
+ /* Layout Container */
+ .container {
+ max-width: 1400px;
+ margin: 0 auto;
+ padding: 2rem;
+ }
 
-        /* Header / Nav */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 1.5rem;
-            margin-bottom: 3rem;
-        }
+ /* Header / Nav */
+ header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 2px solid var(--border-color);
+ padding-bottom: 1.5rem;
+ margin-bottom: 3rem;
+ }
 
-        .brand { font-weight: 900; letter-spacing: -0.05em; font-size: 1.5rem; color: var(--accent-cyan); text-transform: uppercase; }
-        
-        nav ul { list-style: none; display: flex; gap: 2rem; }
-        nav a { color: var(--text-muted); text-decoration: none; font-weight: bold; transition: color 0.3s; }
-        nav a:hover, nav a.active { color: var(--accent-yellow); }
+ .brand { font-weight: 900; letter-spacing: -0.05em; font-size: 1.5rem; color: var(--accent-cyan); text-transform: uppercase; }
+ 
+ nav ul { list-style: none; display: flex; gap: 2rem; }
+ nav a { color: var(--text-muted); text-decoration: none; font-weight: bold; transition: color 0.3s; }
+ nav a:hover, nav a.active { color: var(--accent-yellow); }
 
-        /* Hero Section */
-        .hero {
-            text-align: center;
-            padding: 4rem 0;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        h1 { font-size: clamp(2.5rem, 5vw, 4rem); line-height: 1.1; margin-bottom: 1.5rem; background: linear-gradient(to right, var(--text-main), var(--accent-cyan)); -webkit-background-clip: text; color: transparent;}
-        .subtitle { font-family: var(--font-mono); color: var(--accent-pink); font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
+ /* Hero Section */
+ .hero {
+ text-align: center;
+ padding: 4rem 0;
+ position: relative;
+ overflow: hidden;
+ }
+ 
+ h1 { font-size: clamp(2.5rem, 5vw, 4rem); line-height: 1.1; margin-bottom: 1.5rem; background: linear-gradient(to right, var(--text-main), var(--accent-cyan)); -webkit-background-clip: text; color: transparent;}
+ .subtitle { font-family: var(--font-mono); color: var(--accent-pink); font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
 
-        /* Grid Layouts */
-        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 4rem;}
-        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+ /* Grid Layouts */
+ .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 4rem;}
+ .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
 
-        /* Cards */
-        .card {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            padding: 2rem;
-            border-radius: 8px;
-            transition: transform 0.2s, box-shadow 0.3s;
-            position: relative;
-        }
+ /* Cards */
+ .card {
+ background: var(--card-bg);
+ border: 1px solid var(--border-color);
+ padding: 2rem;
+ border-radius: 8px;
+ transition: transform 0.2s, box-shadow 0.3s;
+ position: relative;
+ }
 
-        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.3); border-color: var(--accent-cyan); }
-        
-        .card h3 { font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-main); position: relative; display: inline-block; }
-        .card h3::after { content: ''; position: absolute; bottom: -8px; left: 0; width: 40%; height: 3px; background-color: var(--accent-yellow); border-radius: 2px;}
+ .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.3); border-color: var(--accent-cyan); }
+ 
+ .card h3 { font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-main); position: relative; display: inline-block; }
+ .card h3::after { content: ''; position: absolute; bottom: -8px; left: 0; width: 40%; height: 3px; background-color: var(--accent-yellow); border-radius: 2px;}
 
-        .tag { display: inline-block; padding: 0.25rem 0.75rem; font-size: 0.8rem; border: 1px solid var(--text-muted); color: var(--text-muted); margin-right: 0.5rem; border-radius: 99px;}
-        .tag.highlight { background-color: rgba(250, 204, 21, 0.1); color: var(--accent-yellow); border-color: transparent;}
+ .tag { display: inline-block; padding: 0.25rem 0.75rem; font-size: 0.8rem; border: 1px solid var(--text-muted); color: var(--text-muted); margin-right: 0.5rem; border-radius: 99px;}
+ .tag.highlight { background-color: rgba(250, 204, 21, 0.1); color: var(--accent-yellow); border-color: transparent;}
 
-        /* Detail Section (Salaryman Style) */
-        .detail-box {
-            background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
-            padding: 3rem;
-            border-left: 5px solid var(--accent-pink);
-            margin: 4rem 0;
-        }
+ /* Detail Section (Salaryman Style) */
+ .detail-box {
+ background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+ padding: 3rem;
+ border-left: 5px solid var(--accent-pink);
+ margin: 4rem 0;
+ }
 
-        .detail-box h2 { font-size: 2rem; margin-bottom: 1.5rem; color: var(--text-main); }
-        
-        /* Footer */
-        footer { border-top: 1px solid var(--border-color); padding-top: 2rem; text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-top: 4rem;}
+ .detail-box h2 { font-size: 2rem; margin-bottom: 1.5rem; color: var(--text-main); }
+ 
+ /* Footer */
+ footer { border-top: 1px solid var(--border-color); padding-top: 2rem; text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-top: 4rem;}
 
-        /* Utility Classes */
-        .mono { font-family: var(--font-mono); }
-        .flex-col { display: flex; flex-direction: column; gap: 1rem; }
-        
-        @media (max-width: 768px) {
-            header { flex-direction: column; gap: 1.5rem; text-align: center;}
-            .grid-2, .detail-box { grid-template-columns: 1fr; padding: 1.5rem; }
-        }
-    </style>
-  <meta property="og:url" content="https://gasan-dev-trend.node-link.shop/about.html">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+ /* Utility Classes */
+ .mono { font-family: var(--font-mono); }
+ .flex-col { display: flex; flex-direction: column; gap: 1rem; }
+ 
+ @media (max-width: 768px) {
+ header { flex-direction: column; gap: 1.5rem; text-align: center;}
+ .grid-2, .detail-box { grid-template-columns: 1fr; padding: 1.5rem; }
+ }
+ </style>
+ <meta property="og:url" content="https://gasan-dev-trend.node-link.shop/about.html">
+ <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
 
 <div class="container">
-    
-    <!-- Header Navigation -->
-    <header>
-        <div class="brand">GASAN<span style="color:#fff;">_DEV</span></div>
-        <nav>
-            <ul>
-                <li><a href="#" class="active">정보</a></li>
-                <li><a href="#">직무</a></li>
-                <li><a href="#">인력풀</a></li>
-                <li><a href="#">커뮤니티</a></li>
-            </ul>
-        </nav>
-    </header>
+ 
+ <!-- Header Navigation -->
+ <header>
+ <div class="brand">GASAN<span style="color:#fff;">_DEV</span></div>
+ <nav>
+ <ul>
+ <li><a href="#" class="active">정보</a></li>
+ <li><a href="#">직무</a></li>
+ <li><a href="#">인력풀</a></li>
+ <li><a href="#">커뮤니티</a></li>
+ </ul>
+ </nav>
+ </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
+ <!-- Hero Section -->
+ <section class="hero">
 
 <!-- SEO Visual 1: 가산 프로그램 개발 추천 Brutalist Avant-Garde Hero -->
 <div class="seo-visual-hero" role="img" aria-label="신뢰할 수 있는 서비스 — 가산 가산 프로그램 개발 추천" 
-     style="width:100%;padding:120px 0 60px 0;background:#ffffff;text-align:left;margin:0;position:relative">
-  <div style="max-width:1100px;margin:0 auto;padding:0 24px">
-    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.4em;color:#000000;margin-bottom:24px;text-transform:uppercase">/ PERSPECTIVE DECONSTRUCTED</div>
-    <div style="font-size:7.5vw;line-height:0.95;font-weight:900;font-family:serif;color:#000000;letter-spacing:-0.05em;margin:0 0 32px 0;text-transform:uppercase">가산 프로그램 개발 추천</div>
-    <p style="font-size:1.1rem;line-height:1.7;color:#000000;max-width:550px;font-weight:300;margin:0">신뢰할 수 있는 서비스</p>
-  </div>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"가산 프로그램 개발 추천","description":"신뢰할 수 있는 서비스","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
+ style="width:100%;padding:120px 0 60px 0;background:#ffffff;text-align:left;margin:0;position:relative">
+ <div style="max-width:1100px;margin:0 auto;padding:0 24px">
+ <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.4em;color:#000000;margin-bottom:24px;text-transform:uppercase">/ PERSPECTIVE DECONSTRUCTED</div>
+ <div style="font-size:7.5vw;line-height:0.95;font-weight:900;font-family:serif;color:#000000;letter-spacing:-0.05em;margin:0 0 32px 0;text-transform:uppercase">가산 프로그램 개발 추천</div>
+ <p style="font-size:1.1rem;line-height:1.7;color:#000000;max-width:550px;font-weight:300;margin:0">신뢰할 수 있는 서비스</p>
+ </div>
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"가산 프로그램 개발 추천","description":"신뢰할 수 있는 서비스","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
 </div>
-        <h1>Night Transit<br>&lt; 가산동 생존 가이드 /&gt;</h1>
-        <p class="subtitle mono">"퇴근길에 걸어서 5 분? 아니야, 지하철을 타고 가는 시간도 계산해야 해."<br>복잡한 변수 없이, 야근과 통근이 공존하는 개발자 현실 데이터.</p>
-    
+ <h1>Night Transit<br>&lt; 가산동 생존 가이드 /&gt;</h1>
+ <p class="subtitle mono">"퇴근길에 걸어서 5 분? 아니야, 지하철을 타고 가는 시간도 계산해야 해."<br>복잡한 변수 없이, 야근과 통근이 공존하는 개발자 현실 데이터.</p>
+ 
 <div class="seo-visual-divider" role="separator" aria-label="가산 프로그램 개발 추천 구분선" style="margin:80px 0;height:1px;background:#666666;opacity:0.1"></div>
 </section>
 
 <!-- SEO Visual 2: 프로그램 개발 Brutalist Typography Cards -->
 <div class="seo-visual-cards" role="img" aria-label="가산 프로그램 개발 추천 프로그램 개발 — 신뢰할 수 있는 서비스" 
-     style="display:flex;flex-direction:column;gap:80px;margin:120px auto;max-width:1100px;padding:0 24px">
-  <div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
-    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">01</div>
-    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">특화</div>
-    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">가산 프로그램 개발 추천</div>
-  </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
-    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">02</div>
-    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">다수 실적</div>
-    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">가산 프로그램 개발 추천</div>
-  </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
-    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">03</div>
-    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">고품질</div>
-    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">가산 프로그램 개발 추천</div>
-  </div>
+ style="display:flex;flex-direction:column;gap:80px;margin:120px auto;max-width:1100px;padding:0 24px">
+ <div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+ <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">01</div>
+ <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">특화</div>
+ <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">가산 프로그램 개발 추천</div>
+ </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+ <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">02</div>
+ <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">다수 실적</div>
+ <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">가산 프로그램 개발 추천</div>
+ </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+ <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">03</div>
+ <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">고품질</div>
+ <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">가산 프로그램 개발 추천</div>
+ </div>
 </div>
 
-    <!-- Main Content Grid -->
-    <div class="grid-3">
-        <article class="card">
-            <h3>01. 지역 특화성</h3>
-            <span class="tag highlight">IT 클러스터 핵심지</span>
-            <p style="margin-top: 1rem; font-size: 0.95rem;">
-                가산동은 단순히 개발자들이 모여 있는 곳이 아닙니다. 이곳은 <strong>'밤'에 가장 활발한 IT 생태계</strong>를 가진 곳입니다.<br><br>
-                밤 8 시 이후에도 오피스 빌딩의 불빛이 꺼지지 않으며, 이는 곧 프로젝트가 진행 중임을 의미합니다. 효율적인 협업과 빠른 출근 (퇴근) 을 원한다면 최적의 위치입니다.
-            </p>
-        </article>
+ <!-- Main Content Grid -->
+ <div class="grid-3">
+ <article class="card">
+ <h3>01. 지역 특화성</h3>
+ <span class="tag highlight">IT 클러스터 핵심지</span>
+ <p style="margin-top: 1rem; font-size: 0.95rem;">
+ 가산동은 단순히 개발자들이 모여 있는 곳이 아닙니다. 이곳은 <strong>'밤'에 가장 활발한 IT 생태계</strong>를 가진 곳입니다.<br><br>
+ 밤 8 시 이후에도 오피스 빌딩의 불빛이 꺼지지 않으며, 이는 곧 프로젝트가 진행 중임을 의미합니다. 효율적인 협업과 빠른 출근 (퇴근) 을 원한다면 최적의 위치입니다.
+ </p>
+ </article>
 
-        <article class="card">
-            <h3>02. 주요 개발 스택</h3>
-            <span class="tag highlight">Frontend & Backend Mix</span>
-            <ul style="margin-top: 1rem; padding-left: 1.5rem; list-style-type: none;">
-                <li style="margin-bottom: 0.75rem;"><strong>React / Vue:</strong> 웹 퍼블리싱 및 SPA 프레임워크의 수요가 압도적입니다.</li>
-                <li style="margin-bottom: 0.75rem;"><strong>Python (Django/FastAPI):</strong> 데이터 분석, 머신러닝, 백엔드 개발에 특화된 프로젝트가 많습니다.</li>
-                <li><strong>DevOps:</strong> 클라우드 인프라 구축 및 자동화 툴을 다루는 인력이 부족하여 높은 평가를 받습니다.</li>
-            </ul>
-        </article>
+ <article class="card">
+ <h3>02. 주요 개발 스택</h3>
+ <span class="tag highlight">Frontend & Backend Mix</span>
+ <ul style="margin-top: 1rem; padding-left: 1.5rem; list-style-type: none;">
+ <li style="margin-bottom: 0.75rem;"><strong>React / Vue:</strong> 웹 퍼블리싱 및 SPA 프레임워크의 수요가 압도적입니다.</li>
+ <li style="margin-bottom: 0.75rem;"><strong>Python (Django/FastAPI):</strong> 데이터 분석, 머신러닝, 백엔드 개발에 특화된 프로젝트가 많습니다.</li>
+ <li><strong>DevOps:</strong> 클라우드 인프라 구축 및 자동화 툴을 다루는 인력이 부족하여 높은 평가를 받습니다.</li>
+ </ul>
+ </article>
 
-        <article class="card">
-            <h3>03. 개발자 생활 팁</h3>
-            <span class="tag highlight">Survival Kit</span>
-            <div style="margin-top: 1rem; font-size: 0.95rem;">
-                <p><strong>"카페는 필수다"</strong><br>오피스 빌딩들 사이로 숨겨진 코딩 카페와 펍들이 많습니다. 밤늦게까지 일할 때의 에너지를 충전하기 위해 방문하는 공간이죠.</p>
-                <p style="margin-top: 1rem;"><strong>"교통 접근성"</strong><br>서울역과 잠실, 신림선 등 주요 지하철 역과의 거리가 짧아 이동 시간이 절약됩니다. 야근 후의 스트레스를 줄이는 데 도움이 됩니다.</p>
-            </div>
-        </article>
-    </div>
+ <article class="card">
+ <h3>03. 개발자 생활 팁</h3>
+ <span class="tag highlight">Survival Kit</span>
+ <div style="margin-top: 1rem; font-size: 0.95rem;">
+ <p><strong>"카페는 필수다"</strong><br>오피스 빌딩들 사이로 숨겨진 코딩 카페와 펍들이 많습니다. 밤늦게까지 일할 때의 에너지를 충전하기 위해 방문하는 공간이죠.</p>
+ <p style="margin-top: 1rem;"><strong>"교통 접근성"</strong><br>서울역과 잠실, 신림선 등 주요 지하철 역과의 거리가 짧아 이동 시간이 절약됩니다. 야근 후의 스트레스를 줄이는 데 도움이 됩니다.</p>
+ </div>
+ </article>
+ </div>
 
-    <!-- Detailed Breakdown (Split Layout) -->
-    <section class="grid-2">
-        </body>
+ <!-- Detailed Breakdown (Split Layout) -->
+ <section class="grid-2">
+ </body>
 </html>
