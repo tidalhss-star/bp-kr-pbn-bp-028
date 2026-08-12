@@ -571,6 +571,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://gasan-dev-trend.node-link.shop/posts/tp-link-20260812-tp4-0001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gasan-dev-trend.node-link.shop/posts.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
