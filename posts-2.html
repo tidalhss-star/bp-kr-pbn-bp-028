@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (2/6) · kr-pbn-bp-028</title>
+  <meta name="description" content="kr-pbn-bp-028에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://gasan-dev-trend.node-link.shop/posts-2.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ :root {
+ --bg-color: #0f172a;
+ --card-bg: #1e293b;
+ --text-main: #f8fafc;
+ --text-muted: #94a3b8;
+ --accent-cyan: #22d3ee;
+ --accent-pink: #f472b6;
+ --accent-yellow: #facc15;
+ --border-color: #334155;
+ 
+ --font-head: "Inter", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+ --font-mono: "Fira Code", Consolas, monospace;
+ }
+
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+ body {
+ font-family: var(--font-head);
+ background-color: var(--bg-color);
+ color: var(--text-main);
+ line-height: 1.6;
+ overflow-x: hidden;
+ }
+
+ /* Layout Container */
+ .container {
+ max-width: 1400px;
+ margin: 0 auto;
+ padding: 2rem;
+ }
+
+ /* Header / Nav */
+ header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 2px solid var(--border-color);
+ padding-bottom: 1.5rem;
+ margin-bottom: 3rem;
+ }
+
+ .brand { font-weight: 900; letter-spacing: -0.05em; font-size: 1.5rem; color: var(--accent-cyan); text-transform: uppercase; }
+ 
+ nav ul { list-style: none; display: flex; gap: 2rem; }
+ nav a { color: var(--text-muted); text-decoration: none; font-weight: bold; transition: color 0.3s; }
+ nav a:hover, nav a.active { color: var(--accent-yellow); }
+
+ /* Hero Section */
+ .hero {
+ text-align: center;
+ padding: 4rem 0;
+ position: relative;
+ overflow: hidden;
+ }
+ 
+ h1 { font-size: clamp(2.5rem, 5vw, 4rem); line-height: 1.1; margin-bottom: 1.5rem; background: linear-gradient(to right, var(--text-main), var(--accent-cyan)); -webkit-background-clip: text; color: transparent;}
+ .subtitle { font-family: var(--font-mono); color: var(--accent-pink); font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
+
+ /* Grid Layouts */
+ .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 4rem;}
+ .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+
+ /* Cards */
+ .card {
+ background: var(--card-bg);
+ border: 1px solid var(--border-color);
+ padding: 2rem;
+ border-radius: 8px;
+ transition: transform 0.2s, box-shadow 0.3s;
+ position: relative;
+ }
+
+ .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.3); border-color: var(--accent-cyan); }
+ 
+ .card h3 { font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-main); position: relative; display: inline-block; }
+ .card h3::after { content: ''; position: absolute; bottom: -8px; left: 0; width: 40%; height: 3px; background-color: var(--accent-yellow); border-radius: 2px;}
+
+ .tag { display: inline-block; padding: 0.25rem 0.75rem; font-size: 0.8rem; border: 1px solid var(--text-muted); color: var(--text-muted); margin-right: 0.5rem; border-radius: 99px;}
+ .tag.highlight { background-color: rgba(250, 204, 21, 0.1); color: var(--accent-yellow); border-color: transparent;}
+
+ /* Detail Section (Salaryman Style) */
+ .detail-box {
+ background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+ padding: 3rem;
+ border-left: 5px solid var(--accent-pink);
+ margin: 4rem 0;
+ }
+
+ .detail-box h2 { font-size: 2rem; margin-bottom: 1.5rem; color: var(--text-main); }
+ 
+ /* Footer */
+ footer { border-top: 1px solid var(--border-color); padding-top: 2rem; text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-top: 4rem;}
+
+ /* Utility Classes */
+ .mono { font-family: var(--font-mono); }
+ .flex-col { display: flex; flex-direction: column; gap: 1rem; }
+ 
+ @media (max-width: 768px) {
+ header { flex-direction: column; gap: 1.5rem; text-align: center;}
+ .grid-2, .detail-box { grid-template-columns: 1fr; padding: 1.5rem; }
+ }
+ </style>
+  <meta property="og:title" content="글 목록 (2/6) · kr-pbn-bp-028">
+  <meta property="og:description" content="kr-pbn-bp-028에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://gasan-dev-trend.node-link.shop/posts-2.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <div class="brand">GASAN<span style="color:#fff;">_DEV</span></div>
+ <nav>
+ <ul>
+ <li><a href="#" class="active">정보</a></li>
+ <li><a href="#">직무</a></li>
+ <li><a href="#">인력풀</a></li>
+ <li><a href="#">커뮤니티</a></li>
+ </ul>
+ </nav>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 111개 · 2/6 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0162.html">가산 프로그램 개발 추천 기준과 연남 유흥 추천정보의 올바른 활용법</a>
+        <p class="post-item__summary">흔히들 연남 일대의 유흥 문화는 무조건 밤늦게 시작해야 좋다는 오해를 하곤 합니다. 하지만 가산 프로그램 개발 추천 항목을 검토하듯 분석적으로 접근하면, 이른 시간대가 오히려 서비스 품질 면에서 유</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0163.html">가산 프로그램 개발 추천 만큼 중요한 마곡 가라오케 추천정보 분석</a>
+        <p class="post-item__summary">쾌적한 환경, 최신식 음향 시설, 그리고 편리한 접근성이라는 충족 조건들을 따져보면 가라오케 선정은 쉽지 않은 과제입니다. 마치 가산 프로그램 개발 추천 프로젝트를 수행할 때 기술 스택을 신중히 고</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0164.html">가산 프로그램 개발 추천 기준을 마곡 유흥 추천정보 비교에 적용하기</a>
+        <p class="post-item__summary">여러분은 유흥 업소를 선택할 때 어떤 기준으로 우선순위를 정하고 계십니까? 가산 프로그램 개발 추천 사례를 검토할 때 우리가 비즈니스 로직의 견고함을 따지듯, 유흥 업소 역시 운영 철학과 서비스 기</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0165.html">가산 프로그램 개발 추천 서비스와 합정 노래방 추천정보 비교 분석</a>
+        <p class="post-item__summary">디지털 환경에서 효율적인 가산 프로그램 개발 추천을 찾는 과정은 정보의 신뢰도를 판별하는 작업과 매우 유사합니다. 기술적인 요구사항을 정의하듯, 즐거운 시간을 보내기 위한 장소 선정 역시 명확한 기</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0331.html">가산 프로그램 개발 추천 기업을 위한 구글 봇 정밀 검진 및 크롤 버짓 밀착 간호</a>
+        <p class="post-item__summary">웹사이트가 검색 결과에 원활히 노출되기 위해서는 명확한 구조 설계, 빠른 응답 속도, 그리고 주기적인 콘텐츠 업데이트라는 세 가지 충족 조건이 필수적입니다. 이러한 과정은 개발자가 단순히 기능적인 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0332.html">가산 프로그램 개발 추천 환경에서 고려하는 마포 단체 회식용 대형 룸 노래방 가격 정보</a>
+        <p class="post-item__summary">바쁜 프로젝트 일정 속에서 팀원들과 함께할 공간을 찾는 것은 업무 효율만큼이나 중요한 비즈니스 매너가 아닐까요. 가산 프로그램 개발 추천 업무로 분주한 개발팀이라면, 회식의 목적에 따라 최적화된 장</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0333.html">가산 프로그램 개발 추천 서비스와 합정 셔츠룸 단골들이 뽑은 핫플 매거진 탐구</a>
+        <p class="post-item__summary">기업의 비즈니스 효율을 높이기 위한 가산 프로그램 개발 추천 정보를 찾는 이들이 늘고 있습니다. 기술적인 완성도뿐만 아니라 실제 서비스 환경에서 얼마나 유연하게 작동하는지가 핵심입니다. 이러한 기준</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0334.html">가산 프로그램 개발 추천 시스템과 마포 홍대 로컬 럭셔리 밤문화 가이드 비교 분석</a>
+        <p class="post-item__summary">효율적인 시스템을 구축하기 위해 가산 프로그램 개발 추천 정보를 찾는 관리자가 많습니다. 개발 환경의 최적화가 필수적이듯, 마포 지역의 밤문화를 즐길 때도 자신만의 기준을 정립하는 과정이 필요합니다</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0335.html">가산 프로그램 개발 추천 과정의 오류와 마포 럭셔리 단체 가라오케 예약 가이드</a>
+        <p class="post-item__summary">성공적인 비즈니스를 위한 가산 프로그램 개발 추천 절차를 밟을 때 흔히 발생하는 오류들이 있습니다. 요구사항을 명확히 정의하지 않거나 커뮤니케이션의 오해로 인해 초기 설계부터 어긋나는 경우가 빈번합</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0336.html">가산 프로그램 개발 추천 기술과 구글 알고리즘 감점 치료 및 백링크 수술실의 연관성</a>
+        <p class="post-item__summary">최적화된 디지털 환경을 구축하는 가산 프로그램 개발 추천 기술은 현대 비즈니스의 필수 요소입니다. 코드 품질이 검색 엔진 최적화에 직결되는 것과 마찬가지로, 웹사이트의 신뢰도를 유지하는 것은 매우 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0337.html">가산 프로그램 개발 추천 핵심 기술 4</a>
+        <p class="post-item__summary">최근 데이터 수집과 처리 업무를 수동으로 반복하던 개발자들이 자동화 환경 구축에 큰 관심을 보이고 있습니다. 업무 도중 발생하는 반복적인 로직을 수동으로 코딩하는 것은 비효율적이며, 이는 단순 노무</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0338.html">가산 프로그램 개발 추천 노하우 마르지 않는 1급수 백링크 주스 공급 서비스</a>
+        <p class="post-item__summary">많은 이들이 검색 엔진의 최적화가 단순히 링크의 개수를 늘리는 작업이라고 오해하고 있습니다. 하지만 단순히 양적으로 팽창된 백링크는 검색 엔진의 신뢰도를 떨어뜨리는 원인이 되기도 합니다. 품질이 낮</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0339.html">가산 프로그램 개발 추천 및 시설 점검 마포 코인노래방 방음 시설 비교 가이드</a>
+        <p class="post-item__summary">적절한 방음재 설치, 정확한 밀폐 구조, 그리고 공기 흐름을 고려한 환기 시스템은 공간을 활용할 때 갖춰야 할 기본 조건입니다. 이러한 물리적 요소들이 조화를 이루지 못하면 내부 환경의 질이 급격히</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0340.html">가산 프로그램 개발 추천 인프라 구글 인덱싱 속도 초고속 광회선 대역폭 최적화</a>
+        <p class="post-item__summary">웹사이트의 콘텐츠가 검색 엔진에 얼마나 빠르게 노출되는지 고민해 본 적 있으십니까? 데이터 전송 속도는 곧 비즈니스의 생명력과 직결되기에 많은 개발자가 네트워크 인프라 개선에 사활을 걸고 있습니다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0341.html">가산 프로그램 개발 추천 서비스와 마포 유흥 투명 정찰제 가격 정보 디렉토리 활용법</a>
+        <p class="post-item__summary">소프트웨어 아키텍처 구축 시 전문적인 가산 프로그램 개발 추천 경로를 탐색하는 것과 투명한 정보를 선별하는 과정은 유사한 논리적 절차를 공유합니다. 데이터의 신뢰성을 확보하기 위해서는 우선 다각도의</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0342.html">가산 프로그램 개발 추천 방식과 마포 셔츠룸 리얼 후기 소셜 마케팅 가이드 분석</a>
+        <p class="post-item__summary">효율적인 시스템 도입을 위해 가산 프로그램 개발 추천 솔루션을 고민할 때, 기술적 스택의 범용성과 프로젝트 성격 사이의 적합성을 대조하는 과정은 필수적입니다. 이처럼 비즈니스 전략을 수립하는 태도는</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260807-0439.html">가산 지역 업종별 프로그램 개발 안내</a>
+        <p class="post-item__summary">가산 디지털단지를 비롯한 지역 산업 거점에서는 다양한 업종의 업무 효율성을 높이기 위한 맞춤형 소프트웨어 도입이 지속적으로 검토되고 있습니다. 특히 특정 업종에 특화된 프로그램 개발은 표준화된 솔루</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260807-0440.html">가산 지역 업종별 프로그램 개발 고려사항</a>
+        <p class="post-item__summary">가산 디지털단지를 중심으로 한 지역 특화 업종 프로그램 개발은 사전 설계가 중요합니다. 기업 환경에 맞춰 업무 로직과 데이터 통합 표준을 검토하는 작업이 핵심입니다. 특히 결제 연동이나 시스템 구축</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260807-0441.html">가산 프로그램 개발 추천 및 맞춤형 시스템 도입 안내</a>
+        <p class="post-item__summary">가산디지털단지 산업 생태계에서는 기업 특성에 맞춘 프로그램 구축 필요성이 지속적으로 강조됩니다. 다양한 업종이 밀집한 환경 특성상 기성 소프트웨어를 그대로 적용하기보다 업무 흐름을 정확히 반영한 기</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260807-0442.html">가산 지역 프로그램 개발 관련 정보 안내</a>
+        <p class="post-item__summary">가산디지털단지 주변은 다양한 정보기술 기업과 소프트웨어 개발사가 집적되어 있는 대표적인 산업 거점입니다. 기업 특성에 맞는 맞춤형 웹 및 응용 프로그램 개발 시에는 내부 업무 프로세스를 세밀히 분석</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <span class="pager__current">2</span>
+      <a class="pager__link" href="posts-3.html">3</a>
+      <a class="pager__link" href="posts-4.html">4</a>
+      <a class="pager__link" href="posts-5.html">5</a>
+      <a class="pager__link" href="posts-6.html">6</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
